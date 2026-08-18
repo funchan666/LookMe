@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<integer>1</integer>
+	<key>Store</key>
+	<dict>
+		<key>LookMeTests</key>
+		<dict>
+			<key>LookMeTests</key>
+			<dict>
+				<key>testLoginAcceptsFormattedEmailAndSixCharacterPassword</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0043870210647583008</real>
+				</dict>
+			</dict>
+		</dict>
+		<key>LookMeUITests</key>
+		<dict>
+			<key>LookMeUITests</key>
+			<dict>
+				<key>testLoginCannotContinueWithoutBothAgreements</key>
+				<dict>
+					<key>mrnet</key>
+					<real>5.1813420057296753</real>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

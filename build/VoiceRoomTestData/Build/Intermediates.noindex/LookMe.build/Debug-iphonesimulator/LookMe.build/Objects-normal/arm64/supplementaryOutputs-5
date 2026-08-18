@@ -1,0 +1,23 @@
+{
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/MomentsFeedViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/MomentsFeedViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/MomentsFeedViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/MomentsFeedViewController.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/MomentsFeedViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/MomentsFeedViewController.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/MomentsViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/MomentsViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/MomentsViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/MomentsViewController.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/MomentsViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/MomentsViewController.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Shared/Models.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/Models.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/Models.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/Models.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/Models.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomTestData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/Models.swiftdeps"
+  }
+}

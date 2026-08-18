@@ -1,0 +1,65 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "51423b17858cfb57ccc7369bb82b634c7698486b209867841d620f4d16bb5c3f"
+    }
+  ],
+  "containerPath" : "/Users/chengdupengyuyan/Fun/LookMe/LookMe.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "hostTargetedPlatform" : null,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator26.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "i386",
+        "x86_64"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomDerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomDerivedData/Build/Products",
+      "derivedDataPath" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomDerivedData",
+      "indexDataStoreFolderPath" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomDerivedData/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomDerivedData/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/chengdupengyuyan/Fun/LookMe/build/VoiceRoomDerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGNING_ALLOWED" : "NO",
+          "SDKROOT" : "iphonesimulator26.5"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES"
+        }
+      }
+    }
+  },
+  "schedulerLaneWidthOverride" : 1,
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

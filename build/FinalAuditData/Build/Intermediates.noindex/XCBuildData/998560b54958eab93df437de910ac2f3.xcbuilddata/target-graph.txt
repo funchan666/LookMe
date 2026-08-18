@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'LookMeUITests' in project 'LookMe'
+➜ Explicit dependency on target 'LookMe' in project 'LookMe'
+Target 'LookMeTests' in project 'LookMe'
+➜ Explicit dependency on target 'LookMe' in project 'LookMe'
+Target 'LookMe' in project 'LookMe' (no dependencies)

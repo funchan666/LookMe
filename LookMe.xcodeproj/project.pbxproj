@@ -1,0 +1,1056 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0079EAB783E19BA6BA18DD95 /* yellow-cab-corner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9FCA4388012AC115F0057ED /* yellow-cab-corner.jpg */; };
+		013DB72E9EA2115A714391F5 /* cliffside-sunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD37D14B86CB29C3AF15606D /* cliffside-sunset.jpg */; };
+		0328B57026D33D5496B40ED0 /* boulevard-snack-stop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F85BBC4DBF87DA825A9EAC /* boulevard-snack-stop.jpg */; };
+		034B390B6E8102BE33E1C7E3 /* presence-constellation-field.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C57EC1F1F01225D161C45D /* presence-constellation-field.png */; };
+		044DFAFCC69C81531FC1385B /* mountain-lake-stop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AEB26EF5CB9EDC2972D5D /* mountain-lake-stop.jpg */; };
+		0487C87B8734D488637C7A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DCCAD3FF1032FF3C0A2F66 /* Assets.xcassets */; };
+		05F273A00499AC892DA906FB /* alpine-ridge-lookout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F495B4EC8E673AFB42A99CDF /* alpine-ridge-lookout.jpg */; };
+		07A3C68EDCAAB5BAFA998B96 /* london-street.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFB6D02FC74478DF40CF47A3 /* london-street.jpg */; };
+		0B43FE9D22712B3C730C67CF /* green-cap-profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CF4B68423970F2C96169270 /* green-cap-profile.jpg */; };
+		0F8DA65843EB5A7BDBB6C24E /* LookMeContentPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42566FD2BCD5B827D0D4B791 /* LookMeContentPolicy.swift */; };
+		1028A0739B2963BE7F86D727 /* Quicksand-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 371897A6E6E6A69B2B4F769C /* Quicksand-OFL.txt */; };
+		10BC5AA202E0237795A82144 /* evening-cat-cafe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4C224A2182C3CDAB897E87E /* evening-cat-cafe.jpg */; };
+		11536300FDB60EBE82300692 /* InterestRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12707E0E05EAA5AF584BC324 /* InterestRoomsViewController.swift */; };
+		135970F1BCBD3A19E6A4BA57 /* meadow-dog-picnic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5DFC4723A41900D1D952A44 /* meadow-dog-picnic.jpg */; };
+		14023BF40F70442F566BC5B3 /* great-wall-rest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7030526298E4E29D4280FECA /* great-wall-rest.jpg */; };
+		192B1F9A5FA11DBD990FFD80 /* LookMeExperienceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A6E77B2C4CAF9F96FF4D2 /* LookMeExperienceStore.swift */; };
+		1AC1CE7F32F828619414687E /* street-style-live.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 065230A248FE083464718BD2 /* street-style-live.mp4 */; };
+		1B86207BDBC0B53DF66949EF /* city-dance-corner.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 29329D9F6CA13B8D3783E539 /* city-dance-corner.mp4 */; };
+		1CA3548E2810CBFFEE221882 /* daydream-closeup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F04E779157D6C98E61C8B9B6 /* daydream-closeup.jpg */; };
+		1CDA6A18D21D4A5237A0E393 /* highland-summit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82CCA4ABF77F8B45B0CCDC2E /* highland-summit.jpg */; };
+		1D0F938826B87846DA6CFEAA /* waterfront-blue-sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48B67B56BC4CD1FB65AF12F1 /* waterfront-blue-sky.jpg */; };
+		1D6F506C3E2CBA2565F73AD5 /* night-skyline-chat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C2DE02FA2FF98123EEA5A91D /* night-skyline-chat.mp4 */; };
+		1FF7B468A3725DE0F09C7D36 /* trail-conversation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4E399E2F18B5B1A5F6B2F3EB /* trail-conversation.mp4 */; };
+		20813436D01EDFF7B9A973D8 /* canyon-hike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE739FA28C7160523168930 /* canyon-hike.jpg */; };
+		2240C39069C742DDB0A91FC7 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949689C2D8B466AAE2944A2 /* AppRouter.swift */; };
+		2699ACD2E7163EE8CDFF2994 /* LookMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B57E4108E4B099510131C7 /* LookMeUITests.swift */; };
+		2883337BF8A73EB04F1B01E9 /* old-town-dress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E19A51806F41C3FEF7181EE6 /* old-town-dress.jpg */; };
+		2D671D1D4D96538080E8E71D /* metro-bandana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12E9DE56827807CBE08EDC11 /* metro-bandana.jpg */; };
+		337E7F918A346B3DF00C9935 /* riverside-black-dress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1DDC81C8866B0FF0FEEBFE5 /* riverside-black-dress.jpg */; };
+		33E532DC98484E58C042E1C2 /* evening-driving-range.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF4BA2861DDFA6EA45BBCFD6 /* evening-driving-range.mp4 */; };
+		353C72A6E2BEE4F9094178AD /* park-picnic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C579BA6651AC4B45E179B29B /* park-picnic.jpg */; };
+		356DD537B375BE93420C2ADA /* WelcomeCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA7074243D602A1E965ED /* WelcomeCoinViewController.swift */; };
+		3782666DAC6F0D5922573BF6 /* riverside-wheel-view.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83B1C1131408DF28AAF1D044 /* riverside-wheel-view.jpg */; };
+		3925178A70A970BD22BE6232 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0F7AF6DE9B82422C2FB09 /* SceneDelegate.swift */; };
+		3EAE455F594566AE1940961F /* CommunityProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD90E2BBA74072BD6D5ED5B2 /* CommunityProfileDetailViewController.swift */; };
+		3FA49EFE7DD90C19B70413C2 /* PresenceDiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1E577EF809B86FE6D489C /* PresenceDiscoveryViewController.swift */; };
+		415AF98FFF5FD2A49CD37246 /* skyline-evening.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE1A06C722279215CAB3B17 /* skyline-evening.jpg */; };
+		41FD12FDC7181F54D9EF5C39 /* discovery-aurora-field.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DD261318A28F73BFEE6A469 /* discovery-aurora-field.png */; };
+		4209516335A72985D0A7C84F /* rooftop-food-live.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CA1B790AC66697A0EE1685E4 /* rooftop-food-live.mp4 */; };
+		4313B2C3A397B93F1FBEE4D0 /* MomentsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F2C8D538954CB5132DC007 /* MomentsFeedViewController.swift */; };
+		48AD345723E888061AC10EDF /* lookme-presence-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 797137EDB0E37F26FDBDB9ED /* lookme-presence-mark.png */; };
+		4BE3E85F99E7A0AABE4CFD73 /* headphone-mirror.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E4EFA39FB73F4D5817F7B67 /* headphone-mirror.jpg */; };
+		4DC7F9348FB867557F6F1825 /* InterestRoomComposerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D2BFB1EE291A2FF617DB66 /* InterestRoomComposerViewController.swift */; };
+		4F0FE118A2BDE6A6AC2EAABC /* cliffside-dive.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7DF942237E74B1321B619C88 /* cliffside-dive.mp4 */; };
+		52D6BA67C826E897AD6E0733 /* SpaceGrotesk-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 37691F7717E85BC170E4FBE4 /* SpaceGrotesk-OFL.txt */; };
+		5571606361249D9814E73788 /* ContentCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444E3F0C903FDEE81D0BB6A /* ContentCommentsViewController.swift */; };
+		57317BAF1E71E72CE4E23ADC /* garden-yellow-top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5A397CD1CF936879A33B2C5 /* garden-yellow-top.jpg */; };
+		5CDAA8723487124478C905A8 /* brownstone-style.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F5121683EA16DF60BAAF3AC3 /* brownstone-style.mp4 */; };
+		6106ABB3C96DEB5A3ECB60B7 /* above-clouds-broadcast.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 861FF4CC5AA4135FE45FE757 /* above-clouds-broadcast.mp4 */; };
+		6374C4E89ED044D00019E735 /* MutualConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D234448388BEDE73E92F9F /* MutualConversationViewController.swift */; };
+		6AAB54388D39E6375D68894A /* old-town-gelato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BF74929A21FB7CEAACE8DCD /* old-town-gelato.jpg */; };
+		713F1FCC5B5F6526A1F11DBB /* coastal-friends.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D2CAFEF4FC62873BF92AE08 /* coastal-friends.jpg */; };
+		734805B10368CB77D4E75CEF /* LookMeVisualSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F1A5F1C0FEE70100DD168B /* LookMeVisualSystem.swift */; };
+		73C3C6FE2A0728FD6B736FCA /* studio-headphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DDFF6121C4AE1246D921BD6 /* studio-headphone.jpg */; };
+		7536DAA688BEADDFAFC40A29 /* harbor-cap-look.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4941037D9D611EEF3A50C5F /* harbor-cap-look.jpg */; };
+		77BF37336EFB801184DAB480 /* StoryReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331E7540A494B41D3F62A1CF /* StoryReelsViewController.swift */; };
+		7B9FB05A61AC10102ACD7BDB /* SpaceGrotesk-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AB31735A7BB2DFF073CD7DB /* SpaceGrotesk-Variable.ttf */; };
+		8129576874EBE97C1411F224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3453FFAF276EB96A5406E502 /* LaunchScreen.storyboard */; };
+		8314F4B3DDF53140E36BBB73 /* effect-boutique-aurora.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF59B931B6BBABC7245C3EC /* effect-boutique-aurora.png */; };
+		871888C10D8085574B919B6D /* PersonalPresenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FFF5EDB8AD81B9549B4DAB /* PersonalPresenceViewController.swift */; };
+		8B75DCA366706C272C40F190 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792C6D7F5B79B117A454D4E /* LoginViewController.swift */; };
+		8E765689E55DC3D4209CA8E2 /* account-entry-scene.png in Resources */ = {isa = PBXBuildFile; fileRef = 998404A27B3FE2061BA68DA0 /* account-entry-scene.png */; };
+		8F1312FFD1A8183CB455539A /* CoinPurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369BE144355DDB49031A3D62 /* CoinPurchaseManager.swift */; };
+		8FD6A55D46E3B72B265AA3A0 /* boulevard-selfie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F93E6E4E9536B3B6C7602E55 /* boulevard-selfie.mp4 */; };
+		90FA796C9EB19E10F5D1E613 /* PolicyAndSettingsViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9CDC2CD8C77B1EF0537005 /* PolicyAndSettingsViewControllers.swift */; };
+		932265A1C54C27F9CBF6E9F7 /* garden-balcony.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F9BAFD9682DC050948B590 /* garden-balcony.jpg */; };
+		9458E10156B9F2EFA7E659AE /* launch-midnight-field.png in Resources */ = {isa = PBXBuildFile; fileRef = ED51248269DD1BB7807734A6 /* launch-midnight-field.png */; };
+		946E8A632F7BCB81607D7CC3 /* EffectBoutiqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC30201F94F06F0E52A9DF /* EffectBoutiqueViewController.swift */; };
+		94EED2EE047FF23F0EA60756 /* sunhat-blue-sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E75153D0CD9BEBC90E924D8E /* sunhat-blue-sky.jpg */; };
+		9935AAAF3B6ED3B1A44D2617 /* LookMeLanguageCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2CA00AA49F5E57C5FDD160 /* LookMeLanguageCenter.swift */; };
+		9961ADC66B9CFAC098372932 /* rocky-trail-smile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B63A62BFA70975800889E3D2 /* rocky-trail-smile.jpg */; };
+		9A557E9B839B194A03196BCE /* Quicksand-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09A5F796A8597777924A45DD /* Quicksand-Variable.ttf */; };
+		9AF6CB3EBD49F990B02290FA /* train-window-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5387AB4C5A8E308C9ACEF16B /* train-window-light.jpg */; };
+		9C3B240BD69A6821A3261E61 /* terrace-sunglasses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B05A840D8BA3C86721A210F /* terrace-sunglasses.jpg */; };
+		A17DB2575B7986540E645763 /* LookMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7672306DC5205DFCC9CB9DE3 /* LookMeTests.swift */; };
+		A1E441CA58271D15B53B6CEE /* gallery-eye-portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB01F11F525A6756D15C3048 /* gallery-eye-portrait.jpg */; };
+		A20CB45B1C61C96D10DE94CB /* crosswalk-daylight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 694BE0480174C6975D343206 /* crosswalk-daylight.jpg */; };
+		A3003E598905F8461ED3DFC0 /* sunhat-lakeside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85CD78035AA81D3D5440A8F3 /* sunhat-lakeside.jpg */; };
+		A6702938A938FD69C36B09F3 /* harbor-rail-pose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1A87B9AA7EFE69409E77085 /* harbor-rail-pose.jpg */; };
+		A6B8B9BF434A7D7A08994922 /* garden-day-live.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B08579D23E077335776EA6FF /* garden-day-live.mp4 */; };
+		A7EEFDDD0CA164C264A77D66 /* mirror-daylight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AED0A1753EE827EE1654621 /* mirror-daylight.jpg */; };
+		AA5C84220C95EB229EE3C75D /* startup-orbit-pulse.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F13C81C93EF368EC1BDDB61 /* startup-orbit-pulse.png */; };
+		AF67F5E2340D8AEF1FA2AFEF /* CommunityDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A9550CAC8FDD1E6326E706 /* CommunityDomain.swift */; };
+		B0146BFCA13158ED835698DA /* LiveRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348BBAD125D8A78B1341DAE /* LiveRoomViewController.swift */; };
+		B1702A627EE3676EAE8DD36F /* ProtectedCapabilityFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B58ECB6378AADA5E28EC0 /* ProtectedCapabilityFlow.swift */; };
+		B2CFC4331DE4B06AB9808DF2 /* watch-district-walk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C9AFE830296B7E2FB2375E5 /* watch-district-walk.jpg */; };
+		B455CBFEEF57E96CD2FF931B /* AuthenticationFlowViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DEFB6D8D81182CF08764C2 /* AuthenticationFlowViewControllers.swift */; };
+		B6081374748EDF0B2550CB7B /* city-pop-evening.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9522B718B2B1F39DFEAC8A3 /* city-pop-evening.jpg */; };
+		BA42CCACC135437181A66C3F /* lakefront-breeze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 839C6003D51591A6D86AD24B /* lakefront-breeze.jpg */; };
+		BD23E8E96D35F296F11596DB /* cafe-step-portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBBF330ABE830C43DE9088B7 /* cafe-step-portrait.jpg */; };
+		C14549E2617A33F0005C5A14 /* railway-greenway.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 59EE8D795C085AB0B80E2092 /* railway-greenway.mp4 */; };
+		C181E4F850248A63C5057953 /* closeup-story-live.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A1CD7857484C288C3D58A275 /* closeup-story-live.mp4 */; };
+		C18D440E332BAEBB5FD55E61 /* authentication-presence-pulse.png in Resources */ = {isa = PBXBuildFile; fileRef = B6707C0C1CBBC97931162071 /* authentication-presence-pulse.png */; };
+		C1D80B1B13D2CDCDA4C177FF /* ActivityInboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9ADD425DBC944DAA80BDCE /* ActivityInboxViewController.swift */; };
+		C33212911A047E6B7AB828E1 /* CoinVaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC4C27693D298D7C4F3180 /* CoinVaultViewController.swift */; };
+		C35F09590BF20F31F3AC5CB4 /* profile-orbit-halo.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A3A239BF13C2A360B16C4D /* profile-orbit-halo.png */; };
+		C7AA09C0721444D8414A2260 /* VoiceRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720DC4A55D971B96AB53700 /* VoiceRoomViewController.swift */; };
+		C84517584F2835985A85CF64 /* city-icecream-walk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38A4DC7F925BE7043F82F21E /* city-icecream-walk.jpg */; };
+		CA97C66DA965300E7F2B7F3E /* soft-morning-portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 440AA484D7B3CC754AB932FC /* soft-morning-portrait.jpg */; };
+		CB5505CBD6093B13E7CBB9C5 /* sunlit-sidewalk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D24596E0C04B76C8A8AB0244 /* sunlit-sidewalk.mp4 */; };
+		CBB6B31D0A801922A437D735 /* courtyard-dance-live.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C56C410F56A020F8BFAF70CB /* courtyard-dance-live.mp4 */; };
+		D41F3DCF2C260ABA33879928 /* evening-red-dress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F199ECBC55E394FFE288439 /* evening-red-dress.jpg */; };
+		D6F46BDEB737E9DFD34747B9 /* LookMeNavigationShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3478ECAF282B599FE76F61 /* LookMeNavigationShell.swift */; };
+		DB782B83BBAED396A4B3EE8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98663F5D79D6A47BC41F7DF /* AppDelegate.swift */; };
+		DBD5D211443753EB8BDD1C9C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F0989E2CFAC8C2CF49ADF6C /* Localizable.strings */; };
+		DD11E4363834B1788F1AF5DB /* canal-afternoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C9579203562A2E127A90AE0 /* canal-afternoon.jpg */; };
+		E0D3D7122F6A04CC9F60822D /* modern-city-square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 409CBA6BE5E60637EAFD12B2 /* modern-city-square.jpg */; };
+		E0E4D8BD82B8561A278DCDA8 /* brick-lane-style.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFEDB6915B24E0476C04A93E /* brick-lane-style.jpg */; };
+		E136FE481499C0E5D17BB3F2 /* canal-city-walk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7253EE905E4682FDE9AACF78 /* canal-city-walk.mp4 */; };
+		E305B6B1BF8CB10E3694A6F8 /* street-camera-reflection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4369E818909E97354CAB1922 /* street-camera-reflection.jpg */; };
+		E637653563141A594206996B /* CommunitySafetyFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AE4FE73947349B63F377C /* CommunitySafetyFlow.swift */; };
+		E64BBD4131F531422E9E2FA4 /* car-window-portrait.webp in Resources */ = {isa = PBXBuildFile; fileRef = C31DF50BBD9BAE2D24030BB7 /* car-window-portrait.webp */; };
+		EFAFF9684C2F867F1B99110D /* friends-city-walk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 17C20772120FC6FAB13699FC /* friends-city-walk.mp4 */; };
+		F56978031C44073E07AEF027 /* launch-signal-pulse.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2348204F860680365A982B /* launch-signal-pulse.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EAAC67D2E0C70A8EBBFB5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2B98BA6999AD6899B48581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C06EC6DFB537CDCF8B9384;
+			remoteInfo = LookMe;
+		};
+		7ADD78ADA2FF6FE8290C794F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2B98BA6999AD6899B48581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C06EC6DFB537CDCF8B9384;
+			remoteInfo = LookMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065230A248FE083464718BD2 /* street-style-live.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "street-style-live.mp4"; sourceTree = "<group>"; };
+		07B57E4108E4B099510131C7 /* LookMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeUITests.swift; sourceTree = "<group>"; };
+		09A5F796A8597777924A45DD /* Quicksand-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Variable.ttf"; sourceTree = "<group>"; };
+		0BF74929A21FB7CEAACE8DCD /* old-town-gelato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "old-town-gelato.jpg"; sourceTree = "<group>"; };
+		12707E0E05EAA5AF584BC324 /* InterestRoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestRoomsViewController.swift; sourceTree = "<group>"; };
+		12E9DE56827807CBE08EDC11 /* metro-bandana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "metro-bandana.jpg"; sourceTree = "<group>"; };
+		168A6E77B2C4CAF9F96FF4D2 /* LookMeExperienceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeExperienceStore.swift; sourceTree = "<group>"; };
+		1792C6D7F5B79B117A454D4E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		17C20772120FC6FAB13699FC /* friends-city-walk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "friends-city-walk.mp4"; sourceTree = "<group>"; };
+		1BE739FA28C7160523168930 /* canyon-hike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "canyon-hike.jpg"; sourceTree = "<group>"; };
+		1C9ADD425DBC944DAA80BDCE /* ActivityInboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInboxViewController.swift; sourceTree = "<group>"; };
+		1CF59B931B6BBABC7245C3EC /* effect-boutique-aurora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "effect-boutique-aurora.png"; sourceTree = "<group>"; };
+		26F9BAFD9682DC050948B590 /* garden-balcony.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "garden-balcony.jpg"; sourceTree = "<group>"; };
+		29329D9F6CA13B8D3783E539 /* city-dance-corner.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "city-dance-corner.mp4"; sourceTree = "<group>"; };
+		2A3478ECAF282B599FE76F61 /* LookMeNavigationShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeNavigationShell.swift; sourceTree = "<group>"; };
+		2D2CAFEF4FC62873BF92AE08 /* coastal-friends.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coastal-friends.jpg"; sourceTree = "<group>"; };
+		331E7540A494B41D3F62A1CF /* StoryReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryReelsViewController.swift; sourceTree = "<group>"; };
+		3453FFAF276EB96A5406E502 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		369BE144355DDB49031A3D62 /* CoinPurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPurchaseManager.swift; sourceTree = "<group>"; };
+		36F1A5F1C0FEE70100DD168B /* LookMeVisualSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeVisualSystem.swift; sourceTree = "<group>"; };
+		371897A6E6E6A69B2B4F769C /* Quicksand-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Quicksand-OFL.txt"; sourceTree = "<group>"; };
+		37691F7717E85BC170E4FBE4 /* SpaceGrotesk-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SpaceGrotesk-OFL.txt"; sourceTree = "<group>"; };
+		38A4DC7F925BE7043F82F21E /* city-icecream-walk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "city-icecream-walk.jpg"; sourceTree = "<group>"; };
+		395A34001A6EBAE2A6A65044 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3B05A840D8BA3C86721A210F /* terrace-sunglasses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "terrace-sunglasses.jpg"; sourceTree = "<group>"; };
+		3B2CA00AA49F5E57C5FDD160 /* LookMeLanguageCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeLanguageCenter.swift; sourceTree = "<group>"; };
+		3CC24CEA5E392E3610C81F14 /* LookMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2AEB26EF5CB9EDC2972D5D /* mountain-lake-stop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mountain-lake-stop.jpg"; sourceTree = "<group>"; };
+		3F13C81C93EF368EC1BDDB61 /* startup-orbit-pulse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startup-orbit-pulse.png"; sourceTree = "<group>"; };
+		3F199ECBC55E394FFE288439 /* evening-red-dress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "evening-red-dress.jpg"; sourceTree = "<group>"; };
+		409CBA6BE5E60637EAFD12B2 /* modern-city-square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "modern-city-square.jpg"; sourceTree = "<group>"; };
+		40C1A086A781416E2A3DD0F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		42566FD2BCD5B827D0D4B791 /* LookMeContentPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeContentPolicy.swift; sourceTree = "<group>"; };
+		4348BBAD125D8A78B1341DAE /* LiveRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRoomViewController.swift; sourceTree = "<group>"; };
+		4369E818909E97354CAB1922 /* street-camera-reflection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "street-camera-reflection.jpg"; sourceTree = "<group>"; };
+		440AA484D7B3CC754AB932FC /* soft-morning-portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "soft-morning-portrait.jpg"; sourceTree = "<group>"; };
+		48B67B56BC4CD1FB65AF12F1 /* waterfront-blue-sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "waterfront-blue-sky.jpg"; sourceTree = "<group>"; };
+		4949689C2D8B466AAE2944A2 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		49DCCAD3FF1032FF3C0A2F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AED0A1753EE827EE1654621 /* mirror-daylight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mirror-daylight.jpg"; sourceTree = "<group>"; };
+		4C1DA7074243D602A1E965ED /* WelcomeCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCoinViewController.swift; sourceTree = "<group>"; };
+		4E399E2F18B5B1A5F6B2F3EB /* trail-conversation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "trail-conversation.mp4"; sourceTree = "<group>"; };
+		4E4EFA39FB73F4D5817F7B67 /* headphone-mirror.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "headphone-mirror.jpg"; sourceTree = "<group>"; };
+		50AC30201F94F06F0E52A9DF /* EffectBoutiqueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectBoutiqueViewController.swift; sourceTree = "<group>"; };
+		5387AB4C5A8E308C9ACEF16B /* train-window-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "train-window-light.jpg"; sourceTree = "<group>"; };
+		57C57EC1F1F01225D161C45D /* presence-constellation-field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "presence-constellation-field.png"; sourceTree = "<group>"; };
+		59EE8D795C085AB0B80E2092 /* railway-greenway.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "railway-greenway.mp4"; sourceTree = "<group>"; };
+		65B15094C2896A3EF5170226 /* LookMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A9550CAC8FDD1E6326E706 /* CommunityDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDomain.swift; sourceTree = "<group>"; };
+		694BE0480174C6975D343206 /* crosswalk-daylight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crosswalk-daylight.jpg"; sourceTree = "<group>"; };
+		69A1E577EF809B86FE6D489C /* PresenceDiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenceDiscoveryViewController.swift; sourceTree = "<group>"; };
+		6AB31735A7BB2DFF073CD7DB /* SpaceGrotesk-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Variable.ttf"; sourceTree = "<group>"; };
+		6C9AFE830296B7E2FB2375E5 /* watch-district-walk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "watch-district-walk.jpg"; sourceTree = "<group>"; };
+		7030526298E4E29D4280FECA /* great-wall-rest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "great-wall-rest.jpg"; sourceTree = "<group>"; };
+		7253EE905E4682FDE9AACF78 /* canal-city-walk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "canal-city-walk.mp4"; sourceTree = "<group>"; };
+		7672306DC5205DFCC9CB9DE3 /* LookMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeTests.swift; sourceTree = "<group>"; };
+		797137EDB0E37F26FDBDB9ED /* lookme-presence-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookme-presence-mark.png"; sourceTree = "<group>"; };
+		7CF4B68423970F2C96169270 /* green-cap-profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "green-cap-profile.jpg"; sourceTree = "<group>"; };
+		7DF942237E74B1321B619C88 /* cliffside-dive.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cliffside-dive.mp4"; sourceTree = "<group>"; };
+		82CCA4ABF77F8B45B0CCDC2E /* highland-summit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "highland-summit.jpg"; sourceTree = "<group>"; };
+		839C6003D51591A6D86AD24B /* lakefront-breeze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lakefront-breeze.jpg"; sourceTree = "<group>"; };
+		83B1C1131408DF28AAF1D044 /* riverside-wheel-view.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "riverside-wheel-view.jpg"; sourceTree = "<group>"; };
+		8444E3F0C903FDEE81D0BB6A /* ContentCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCommentsViewController.swift; sourceTree = "<group>"; };
+		8461DF7C3414C6AA40041E3A /* LookMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LookMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CD78035AA81D3D5440A8F3 /* sunhat-lakeside.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunhat-lakeside.jpg"; sourceTree = "<group>"; };
+		861FF4CC5AA4135FE45FE757 /* above-clouds-broadcast.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "above-clouds-broadcast.mp4"; sourceTree = "<group>"; };
+		8D2348204F860680365A982B /* launch-signal-pulse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-signal-pulse.png"; sourceTree = "<group>"; };
+		8DDFF6121C4AE1246D921BD6 /* studio-headphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "studio-headphone.jpg"; sourceTree = "<group>"; };
+		9121C344AE92B456CFC9FE9D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		93F2C8D538954CB5132DC007 /* MomentsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsFeedViewController.swift; sourceTree = "<group>"; };
+		998404A27B3FE2061BA68DA0 /* account-entry-scene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account-entry-scene.png"; sourceTree = "<group>"; };
+		9C9579203562A2E127A90AE0 /* canal-afternoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "canal-afternoon.jpg"; sourceTree = "<group>"; };
+		9CC0F7AF6DE9B82422C2FB09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DD261318A28F73BFEE6A469 /* discovery-aurora-field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discovery-aurora-field.png"; sourceTree = "<group>"; };
+		A1CD7857484C288C3D58A275 /* closeup-story-live.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "closeup-story-live.mp4"; sourceTree = "<group>"; };
+		A1D2BFB1EE291A2FF617DB66 /* InterestRoomComposerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestRoomComposerViewController.swift; sourceTree = "<group>"; };
+		A5DFC4723A41900D1D952A44 /* meadow-dog-picnic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "meadow-dog-picnic.jpg"; sourceTree = "<group>"; };
+		A5F85BBC4DBF87DA825A9EAC /* boulevard-snack-stop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boulevard-snack-stop.jpg"; sourceTree = "<group>"; };
+		AB01F11F525A6756D15C3048 /* gallery-eye-portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gallery-eye-portrait.jpg"; sourceTree = "<group>"; };
+		B08579D23E077335776EA6FF /* garden-day-live.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "garden-day-live.mp4"; sourceTree = "<group>"; };
+		B2DEFB6D8D81182CF08764C2 /* AuthenticationFlowViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFlowViewControllers.swift; sourceTree = "<group>"; };
+		B4941037D9D611EEF3A50C5F /* harbor-cap-look.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "harbor-cap-look.jpg"; sourceTree = "<group>"; };
+		B63A62BFA70975800889E3D2 /* rocky-trail-smile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocky-trail-smile.jpg"; sourceTree = "<group>"; };
+		B6707C0C1CBBC97931162071 /* authentication-presence-pulse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "authentication-presence-pulse.png"; sourceTree = "<group>"; };
+		B83B58ECB6378AADA5E28EC0 /* ProtectedCapabilityFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectedCapabilityFlow.swift; sourceTree = "<group>"; };
+		B9FCA4388012AC115F0057ED /* yellow-cab-corner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "yellow-cab-corner.jpg"; sourceTree = "<group>"; };
+		BD9CDC2CD8C77B1EF0537005 /* PolicyAndSettingsViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyAndSettingsViewControllers.swift; sourceTree = "<group>"; };
+		BF4BA2861DDFA6EA45BBCFD6 /* evening-driving-range.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "evening-driving-range.mp4"; sourceTree = "<group>"; };
+		C2DE02FA2FF98123EEA5A91D /* night-skyline-chat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "night-skyline-chat.mp4"; sourceTree = "<group>"; };
+		C31DF50BBD9BAE2D24030BB7 /* car-window-portrait.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "car-window-portrait.webp"; sourceTree = "<group>"; };
+		C40AE4FE73947349B63F377C /* CommunitySafetyFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitySafetyFlow.swift; sourceTree = "<group>"; };
+		C56C410F56A020F8BFAF70CB /* courtyard-dance-live.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "courtyard-dance-live.mp4"; sourceTree = "<group>"; };
+		C579BA6651AC4B45E179B29B /* park-picnic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "park-picnic.jpg"; sourceTree = "<group>"; };
+		C9522B718B2B1F39DFEAC8A3 /* city-pop-evening.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "city-pop-evening.jpg"; sourceTree = "<group>"; };
+		C98663F5D79D6A47BC41F7DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA1B790AC66697A0EE1685E4 /* rooftop-food-live.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rooftop-food-live.mp4"; sourceTree = "<group>"; };
+		CBBF330ABE830C43DE9088B7 /* cafe-step-portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cafe-step-portrait.jpg"; sourceTree = "<group>"; };
+		D1DDC81C8866B0FF0FEEBFE5 /* riverside-black-dress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "riverside-black-dress.jpg"; sourceTree = "<group>"; };
+		D24596E0C04B76C8A8AB0244 /* sunlit-sidewalk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sunlit-sidewalk.mp4"; sourceTree = "<group>"; };
+		D4C224A2182C3CDAB897E87E /* evening-cat-cafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "evening-cat-cafe.jpg"; sourceTree = "<group>"; };
+		D8D234448388BEDE73E92F9F /* MutualConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualConversationViewController.swift; sourceTree = "<group>"; };
+		DB470113F9D7DF4F4DD8342B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCAC4C27693D298D7C4F3180 /* CoinVaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinVaultViewController.swift; sourceTree = "<group>"; };
+		DFEDB6915B24E0476C04A93E /* brick-lane-style.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brick-lane-style.jpg"; sourceTree = "<group>"; };
+		E19A51806F41C3FEF7181EE6 /* old-town-dress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "old-town-dress.jpg"; sourceTree = "<group>"; };
+		E1A87B9AA7EFE69409E77085 /* harbor-rail-pose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "harbor-rail-pose.jpg"; sourceTree = "<group>"; };
+		E25517D7D2C120E11F822676 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E5A397CD1CF936879A33B2C5 /* garden-yellow-top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "garden-yellow-top.jpg"; sourceTree = "<group>"; };
+		E6A3A239BF13C2A360B16C4D /* profile-orbit-halo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-orbit-halo.png"; sourceTree = "<group>"; };
+		E75153D0CD9BEBC90E924D8E /* sunhat-blue-sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunhat-blue-sky.jpg"; sourceTree = "<group>"; };
+		ED51248269DD1BB7807734A6 /* launch-midnight-field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-midnight-field.png"; sourceTree = "<group>"; };
+		F04E779157D6C98E61C8B9B6 /* daydream-closeup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "daydream-closeup.jpg"; sourceTree = "<group>"; };
+		F2FFF5EDB8AD81B9549B4DAB /* PersonalPresenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPresenceViewController.swift; sourceTree = "<group>"; };
+		F495B4EC8E673AFB42A99CDF /* alpine-ridge-lookout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alpine-ridge-lookout.jpg"; sourceTree = "<group>"; };
+		F5121683EA16DF60BAAF3AC3 /* brownstone-style.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brownstone-style.mp4"; sourceTree = "<group>"; };
+		F720DC4A55D971B96AB53700 /* VoiceRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRoomViewController.swift; sourceTree = "<group>"; };
+		F93E6E4E9536B3B6C7602E55 /* boulevard-selfie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "boulevard-selfie.mp4"; sourceTree = "<group>"; };
+		FD37D14B86CB29C3AF15606D /* cliffside-sunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cliffside-sunset.jpg"; sourceTree = "<group>"; };
+		FD90E2BBA74072BD6D5ED5B2 /* CommunityProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityProfileDetailViewController.swift; sourceTree = "<group>"; };
+		FEE1A06C722279215CAB3B17 /* skyline-evening.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "skyline-evening.jpg"; sourceTree = "<group>"; };
+		FFB6D02FC74478DF40CF47A3 /* london-street.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "london-street.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		04485BBB8BBDA9D07C91F1C1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				369BE144355DDB49031A3D62 /* CoinPurchaseManager.swift */,
+				68A9550CAC8FDD1E6326E706 /* CommunityDomain.swift */,
+				C40AE4FE73947349B63F377C /* CommunitySafetyFlow.swift */,
+				42566FD2BCD5B827D0D4B791 /* LookMeContentPolicy.swift */,
+				168A6E77B2C4CAF9F96FF4D2 /* LookMeExperienceStore.swift */,
+				3B2CA00AA49F5E57C5FDD160 /* LookMeLanguageCenter.swift */,
+				36F1A5F1C0FEE70100DD168B /* LookMeVisualSystem.swift */,
+				B83B58ECB6378AADA5E28EC0 /* ProtectedCapabilityFlow.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		481B6A1E0D97488EC8F79B8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8461DF7C3414C6AA40041E3A /* LookMe.app */,
+				3CC24CEA5E392E3610C81F14 /* LookMeTests.xctest */,
+				65B15094C2896A3EF5170226 /* LookMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A72BAF716FB6452DFA1D0D3 /* SignalTypography */ = {
+			isa = PBXGroup;
+			children = (
+				371897A6E6E6A69B2B4F769C /* Quicksand-OFL.txt */,
+				09A5F796A8597777924A45DD /* Quicksand-Variable.ttf */,
+				37691F7717E85BC170E4FBE4 /* SpaceGrotesk-OFL.txt */,
+				6AB31735A7BB2DFF073CD7DB /* SpaceGrotesk-Variable.ttf */,
+			);
+			path = SignalTypography;
+			sourceTree = "<group>";
+		};
+		9A05643941FC5BFF757678F8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BCFBE59A4957A2C7E54C8B4B /* App */,
+				A482893479F521887478D39E /* Features */,
+				C6BE206846BB32CAD178FD9D /* Resources */,
+				04485BBB8BBDA9D07C91F1C1 /* Shared */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9F731FBC4DF4903661E92CC9 = {
+			isa = PBXGroup;
+			children = (
+				DDB916656DEE54E1EB39119B /* LookMeTests */,
+				CC440A2E0314451CAF51C57C /* LookMeUITests */,
+				9A05643941FC5BFF757678F8 /* Sources */,
+				481B6A1E0D97488EC8F79B8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A482893479F521887478D39E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1C9ADD425DBC944DAA80BDCE /* ActivityInboxViewController.swift */,
+				B2DEFB6D8D81182CF08764C2 /* AuthenticationFlowViewControllers.swift */,
+				DCAC4C27693D298D7C4F3180 /* CoinVaultViewController.swift */,
+				FD90E2BBA74072BD6D5ED5B2 /* CommunityProfileDetailViewController.swift */,
+				8444E3F0C903FDEE81D0BB6A /* ContentCommentsViewController.swift */,
+				50AC30201F94F06F0E52A9DF /* EffectBoutiqueViewController.swift */,
+				A1D2BFB1EE291A2FF617DB66 /* InterestRoomComposerViewController.swift */,
+				12707E0E05EAA5AF584BC324 /* InterestRoomsViewController.swift */,
+				4348BBAD125D8A78B1341DAE /* LiveRoomViewController.swift */,
+				1792C6D7F5B79B117A454D4E /* LoginViewController.swift */,
+				2A3478ECAF282B599FE76F61 /* LookMeNavigationShell.swift */,
+				93F2C8D538954CB5132DC007 /* MomentsFeedViewController.swift */,
+				D8D234448388BEDE73E92F9F /* MutualConversationViewController.swift */,
+				F2FFF5EDB8AD81B9549B4DAB /* PersonalPresenceViewController.swift */,
+				BD9CDC2CD8C77B1EF0537005 /* PolicyAndSettingsViewControllers.swift */,
+				69A1E577EF809B86FE6D489C /* PresenceDiscoveryViewController.swift */,
+				331E7540A494B41D3F62A1CF /* StoryReelsViewController.swift */,
+				F720DC4A55D971B96AB53700 /* VoiceRoomViewController.swift */,
+				4C1DA7074243D602A1E965ED /* WelcomeCoinViewController.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BCFBE59A4957A2C7E54C8B4B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C98663F5D79D6A47BC41F7DF /* AppDelegate.swift */,
+				4949689C2D8B466AAE2944A2 /* AppRouter.swift */,
+				9CC0F7AF6DE9B82422C2FB09 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C6BE206846BB32CAD178FD9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49DCCAD3FF1032FF3C0A2F66 /* Assets.xcassets */,
+				3453FFAF276EB96A5406E502 /* LaunchScreen.storyboard */,
+				5F0989E2CFAC8C2CF49ADF6C /* Localizable.strings */,
+				D2929419D63B8A073707EE7F /* CommunityStories */,
+				DC8F2597B920DBA9DD1B32F2 /* ProfilePortraits */,
+				E232B82A616A33E906008E78 /* SignalCanvas */,
+				5A72BAF716FB6452DFA1D0D3 /* SignalTypography */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB45601664D377D2B9DCE829 /* PresencePortraits */ = {
+			isa = PBXGroup;
+			children = (
+				F495B4EC8E673AFB42A99CDF /* alpine-ridge-lookout.jpg */,
+				A5F85BBC4DBF87DA825A9EAC /* boulevard-snack-stop.jpg */,
+				DFEDB6915B24E0476C04A93E /* brick-lane-style.jpg */,
+				CBBF330ABE830C43DE9088B7 /* cafe-step-portrait.jpg */,
+				9C9579203562A2E127A90AE0 /* canal-afternoon.jpg */,
+				1BE739FA28C7160523168930 /* canyon-hike.jpg */,
+				C31DF50BBD9BAE2D24030BB7 /* car-window-portrait.webp */,
+				38A4DC7F925BE7043F82F21E /* city-icecream-walk.jpg */,
+				C9522B718B2B1F39DFEAC8A3 /* city-pop-evening.jpg */,
+				FD37D14B86CB29C3AF15606D /* cliffside-sunset.jpg */,
+				2D2CAFEF4FC62873BF92AE08 /* coastal-friends.jpg */,
+				F04E779157D6C98E61C8B9B6 /* daydream-closeup.jpg */,
+				D4C224A2182C3CDAB897E87E /* evening-cat-cafe.jpg */,
+				3F199ECBC55E394FFE288439 /* evening-red-dress.jpg */,
+				AB01F11F525A6756D15C3048 /* gallery-eye-portrait.jpg */,
+				26F9BAFD9682DC050948B590 /* garden-balcony.jpg */,
+				7030526298E4E29D4280FECA /* great-wall-rest.jpg */,
+				7CF4B68423970F2C96169270 /* green-cap-profile.jpg */,
+				B4941037D9D611EEF3A50C5F /* harbor-cap-look.jpg */,
+				E1A87B9AA7EFE69409E77085 /* harbor-rail-pose.jpg */,
+				4E4EFA39FB73F4D5817F7B67 /* headphone-mirror.jpg */,
+				82CCA4ABF77F8B45B0CCDC2E /* highland-summit.jpg */,
+				839C6003D51591A6D86AD24B /* lakefront-breeze.jpg */,
+				FFB6D02FC74478DF40CF47A3 /* london-street.jpg */,
+				A5DFC4723A41900D1D952A44 /* meadow-dog-picnic.jpg */,
+				4AED0A1753EE827EE1654621 /* mirror-daylight.jpg */,
+				409CBA6BE5E60637EAFD12B2 /* modern-city-square.jpg */,
+				3E2AEB26EF5CB9EDC2972D5D /* mountain-lake-stop.jpg */,
+				E19A51806F41C3FEF7181EE6 /* old-town-dress.jpg */,
+				C579BA6651AC4B45E179B29B /* park-picnic.jpg */,
+				83B1C1131408DF28AAF1D044 /* riverside-wheel-view.jpg */,
+				B63A62BFA70975800889E3D2 /* rocky-trail-smile.jpg */,
+				FEE1A06C722279215CAB3B17 /* skyline-evening.jpg */,
+				440AA484D7B3CC754AB932FC /* soft-morning-portrait.jpg */,
+				4369E818909E97354CAB1922 /* street-camera-reflection.jpg */,
+				85CD78035AA81D3D5440A8F3 /* sunhat-lakeside.jpg */,
+				3B05A840D8BA3C86721A210F /* terrace-sunglasses.jpg */,
+				5387AB4C5A8E308C9ACEF16B /* train-window-light.jpg */,
+				6C9AFE830296B7E2FB2375E5 /* watch-district-walk.jpg */,
+				48B67B56BC4CD1FB65AF12F1 /* waterfront-blue-sky.jpg */,
+				B9FCA4388012AC115F0057ED /* yellow-cab-corner.jpg */,
+			);
+			path = PresencePortraits;
+			sourceTree = "<group>";
+		};
+		CC440A2E0314451CAF51C57C /* LookMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07B57E4108E4B099510131C7 /* LookMeUITests.swift */,
+			);
+			path = LookMeUITests;
+			sourceTree = "<group>";
+		};
+		D2929419D63B8A073707EE7F /* CommunityStories */ = {
+			isa = PBXGroup;
+			children = (
+				F25DB0BC6CEA029FEBDF0F61 /* MotionScenes */,
+				CB45601664D377D2B9DCE829 /* PresencePortraits */,
+			);
+			path = CommunityStories;
+			sourceTree = "<group>";
+		};
+		DC8F2597B920DBA9DD1B32F2 /* ProfilePortraits */ = {
+			isa = PBXGroup;
+			children = (
+				694BE0480174C6975D343206 /* crosswalk-daylight.jpg */,
+				E5A397CD1CF936879A33B2C5 /* garden-yellow-top.jpg */,
+				12E9DE56827807CBE08EDC11 /* metro-bandana.jpg */,
+				0BF74929A21FB7CEAACE8DCD /* old-town-gelato.jpg */,
+				D1DDC81C8866B0FF0FEEBFE5 /* riverside-black-dress.jpg */,
+				8DDFF6121C4AE1246D921BD6 /* studio-headphone.jpg */,
+				E75153D0CD9BEBC90E924D8E /* sunhat-blue-sky.jpg */,
+			);
+			path = ProfilePortraits;
+			sourceTree = "<group>";
+		};
+		DDB916656DEE54E1EB39119B /* LookMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7672306DC5205DFCC9CB9DE3 /* LookMeTests.swift */,
+			);
+			path = LookMeTests;
+			sourceTree = "<group>";
+		};
+		E232B82A616A33E906008E78 /* SignalCanvas */ = {
+			isa = PBXGroup;
+			children = (
+				998404A27B3FE2061BA68DA0 /* account-entry-scene.png */,
+				B6707C0C1CBBC97931162071 /* authentication-presence-pulse.png */,
+				9DD261318A28F73BFEE6A469 /* discovery-aurora-field.png */,
+				1CF59B931B6BBABC7245C3EC /* effect-boutique-aurora.png */,
+				ED51248269DD1BB7807734A6 /* launch-midnight-field.png */,
+				8D2348204F860680365A982B /* launch-signal-pulse.png */,
+				797137EDB0E37F26FDBDB9ED /* lookme-presence-mark.png */,
+				57C57EC1F1F01225D161C45D /* presence-constellation-field.png */,
+				E6A3A239BF13C2A360B16C4D /* profile-orbit-halo.png */,
+				3F13C81C93EF368EC1BDDB61 /* startup-orbit-pulse.png */,
+			);
+			path = SignalCanvas;
+			sourceTree = "<group>";
+		};
+		F25DB0BC6CEA029FEBDF0F61 /* MotionScenes */ = {
+			isa = PBXGroup;
+			children = (
+				861FF4CC5AA4135FE45FE757 /* above-clouds-broadcast.mp4 */,
+				F93E6E4E9536B3B6C7602E55 /* boulevard-selfie.mp4 */,
+				F5121683EA16DF60BAAF3AC3 /* brownstone-style.mp4 */,
+				7253EE905E4682FDE9AACF78 /* canal-city-walk.mp4 */,
+				29329D9F6CA13B8D3783E539 /* city-dance-corner.mp4 */,
+				7DF942237E74B1321B619C88 /* cliffside-dive.mp4 */,
+				A1CD7857484C288C3D58A275 /* closeup-story-live.mp4 */,
+				C56C410F56A020F8BFAF70CB /* courtyard-dance-live.mp4 */,
+				BF4BA2861DDFA6EA45BBCFD6 /* evening-driving-range.mp4 */,
+				17C20772120FC6FAB13699FC /* friends-city-walk.mp4 */,
+				B08579D23E077335776EA6FF /* garden-day-live.mp4 */,
+				C2DE02FA2FF98123EEA5A91D /* night-skyline-chat.mp4 */,
+				59EE8D795C085AB0B80E2092 /* railway-greenway.mp4 */,
+				CA1B790AC66697A0EE1685E4 /* rooftop-food-live.mp4 */,
+				065230A248FE083464718BD2 /* street-style-live.mp4 */,
+				D24596E0C04B76C8A8AB0244 /* sunlit-sidewalk.mp4 */,
+				4E399E2F18B5B1A5F6B2F3EB /* trail-conversation.mp4 */,
+			);
+			path = MotionScenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53C06EC6DFB537CDCF8B9384 /* LookMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BCD26081135CD9FF23D7148 /* Build configuration list for PBXNativeTarget "LookMe" */;
+			buildPhases = (
+				F7056C0D5AFD655C1D8302B3 /* Sources */,
+				D3C5D71876A1E3536A0DCBB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LookMe;
+			packageProductDependencies = (
+			);
+			productName = LookMe;
+			productReference = 8461DF7C3414C6AA40041E3A /* LookMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CCC46746D6913E8CBDE8223 /* LookMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E54C100072575F69E2C5EE25 /* Build configuration list for PBXNativeTarget "LookMeTests" */;
+			buildPhases = (
+				28C32513175C52770CB86734 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3615445560D4E1DF652AFD /* PBXTargetDependency */,
+			);
+			name = LookMeTests;
+			packageProductDependencies = (
+			);
+			productName = LookMeTests;
+			productReference = 3CC24CEA5E392E3610C81F14 /* LookMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1E75D6AEC0EAFAA070DD1C6 /* LookMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE25509EBD6AC0B0CF3C123C /* Build configuration list for PBXNativeTarget "LookMeUITests" */;
+			buildPhases = (
+				319D87247FD66F61886AB923 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941BC53C945513FD3AB383BE /* PBXTargetDependency */,
+			);
+			name = LookMeUITests;
+			packageProductDependencies = (
+			);
+			productName = LookMeUITests;
+			productReference = 65B15094C2896A3EF5170226 /* LookMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2B98BA6999AD6899B48581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					D1E75D6AEC0EAFAA070DD1C6 = {
+						TestTargetID = 53C06EC6DFB537CDCF8B9384;
+					};
+				};
+			};
+			buildConfigurationList = 643F8E21E12A21162D0F3989 /* Build configuration list for PBXProject "LookMe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				de,
+				en,
+				es,
+				ja,
+				"zh-Hans",
+			);
+			mainGroup = 9F731FBC4DF4903661E92CC9;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C06EC6DFB537CDCF8B9384 /* LookMe */,
+				7CCC46746D6913E8CBDE8223 /* LookMeTests */,
+				D1E75D6AEC0EAFAA070DD1C6 /* LookMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C5D71876A1E3536A0DCBB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0487C87B8734D488637C7A01 /* Assets.xcassets in Resources */,
+				8129576874EBE97C1411F224 /* LaunchScreen.storyboard in Resources */,
+				DBD5D211443753EB8BDD1C9C /* Localizable.strings in Resources */,
+				1028A0739B2963BE7F86D727 /* Quicksand-OFL.txt in Resources */,
+				9A557E9B839B194A03196BCE /* Quicksand-Variable.ttf in Resources */,
+				52D6BA67C826E897AD6E0733 /* SpaceGrotesk-OFL.txt in Resources */,
+				7B9FB05A61AC10102ACD7BDB /* SpaceGrotesk-Variable.ttf in Resources */,
+				6106ABB3C96DEB5A3ECB60B7 /* above-clouds-broadcast.mp4 in Resources */,
+				8E765689E55DC3D4209CA8E2 /* account-entry-scene.png in Resources */,
+				05F273A00499AC892DA906FB /* alpine-ridge-lookout.jpg in Resources */,
+				C18D440E332BAEBB5FD55E61 /* authentication-presence-pulse.png in Resources */,
+				8FD6A55D46E3B72B265AA3A0 /* boulevard-selfie.mp4 in Resources */,
+				0328B57026D33D5496B40ED0 /* boulevard-snack-stop.jpg in Resources */,
+				E0E4D8BD82B8561A278DCDA8 /* brick-lane-style.jpg in Resources */,
+				5CDAA8723487124478C905A8 /* brownstone-style.mp4 in Resources */,
+				BD23E8E96D35F296F11596DB /* cafe-step-portrait.jpg in Resources */,
+				DD11E4363834B1788F1AF5DB /* canal-afternoon.jpg in Resources */,
+				E136FE481499C0E5D17BB3F2 /* canal-city-walk.mp4 in Resources */,
+				20813436D01EDFF7B9A973D8 /* canyon-hike.jpg in Resources */,
+				E64BBD4131F531422E9E2FA4 /* car-window-portrait.webp in Resources */,
+				1B86207BDBC0B53DF66949EF /* city-dance-corner.mp4 in Resources */,
+				C84517584F2835985A85CF64 /* city-icecream-walk.jpg in Resources */,
+				B6081374748EDF0B2550CB7B /* city-pop-evening.jpg in Resources */,
+				4F0FE118A2BDE6A6AC2EAABC /* cliffside-dive.mp4 in Resources */,
+				013DB72E9EA2115A714391F5 /* cliffside-sunset.jpg in Resources */,
+				C181E4F850248A63C5057953 /* closeup-story-live.mp4 in Resources */,
+				713F1FCC5B5F6526A1F11DBB /* coastal-friends.jpg in Resources */,
+				CBB6B31D0A801922A437D735 /* courtyard-dance-live.mp4 in Resources */,
+				A20CB45B1C61C96D10DE94CB /* crosswalk-daylight.jpg in Resources */,
+				1CA3548E2810CBFFEE221882 /* daydream-closeup.jpg in Resources */,
+				41FD12FDC7181F54D9EF5C39 /* discovery-aurora-field.png in Resources */,
+				8314F4B3DDF53140E36BBB73 /* effect-boutique-aurora.png in Resources */,
+				10BC5AA202E0237795A82144 /* evening-cat-cafe.jpg in Resources */,
+				33E532DC98484E58C042E1C2 /* evening-driving-range.mp4 in Resources */,
+				D41F3DCF2C260ABA33879928 /* evening-red-dress.jpg in Resources */,
+				EFAFF9684C2F867F1B99110D /* friends-city-walk.mp4 in Resources */,
+				A1E441CA58271D15B53B6CEE /* gallery-eye-portrait.jpg in Resources */,
+				932265A1C54C27F9CBF6E9F7 /* garden-balcony.jpg in Resources */,
+				A6B8B9BF434A7D7A08994922 /* garden-day-live.mp4 in Resources */,
+				57317BAF1E71E72CE4E23ADC /* garden-yellow-top.jpg in Resources */,
+				14023BF40F70442F566BC5B3 /* great-wall-rest.jpg in Resources */,
+				0B43FE9D22712B3C730C67CF /* green-cap-profile.jpg in Resources */,
+				7536DAA688BEADDFAFC40A29 /* harbor-cap-look.jpg in Resources */,
+				A6702938A938FD69C36B09F3 /* harbor-rail-pose.jpg in Resources */,
+				4BE3E85F99E7A0AABE4CFD73 /* headphone-mirror.jpg in Resources */,
+				1CDA6A18D21D4A5237A0E393 /* highland-summit.jpg in Resources */,
+				BA42CCACC135437181A66C3F /* lakefront-breeze.jpg in Resources */,
+				9458E10156B9F2EFA7E659AE /* launch-midnight-field.png in Resources */,
+				F56978031C44073E07AEF027 /* launch-signal-pulse.png in Resources */,
+				07A3C68EDCAAB5BAFA998B96 /* london-street.jpg in Resources */,
+				48AD345723E888061AC10EDF /* lookme-presence-mark.png in Resources */,
+				135970F1BCBD3A19E6A4BA57 /* meadow-dog-picnic.jpg in Resources */,
+				2D671D1D4D96538080E8E71D /* metro-bandana.jpg in Resources */,
+				A7EEFDDD0CA164C264A77D66 /* mirror-daylight.jpg in Resources */,
+				E0D3D7122F6A04CC9F60822D /* modern-city-square.jpg in Resources */,
+				044DFAFCC69C81531FC1385B /* mountain-lake-stop.jpg in Resources */,
+				1D6F506C3E2CBA2565F73AD5 /* night-skyline-chat.mp4 in Resources */,
+				2883337BF8A73EB04F1B01E9 /* old-town-dress.jpg in Resources */,
+				6AAB54388D39E6375D68894A /* old-town-gelato.jpg in Resources */,
+				353C72A6E2BEE4F9094178AD /* park-picnic.jpg in Resources */,
+				034B390B6E8102BE33E1C7E3 /* presence-constellation-field.png in Resources */,
+				C35F09590BF20F31F3AC5CB4 /* profile-orbit-halo.png in Resources */,
+				C14549E2617A33F0005C5A14 /* railway-greenway.mp4 in Resources */,
+				337E7F918A346B3DF00C9935 /* riverside-black-dress.jpg in Resources */,
+				3782666DAC6F0D5922573BF6 /* riverside-wheel-view.jpg in Resources */,
+				9961ADC66B9CFAC098372932 /* rocky-trail-smile.jpg in Resources */,
+				4209516335A72985D0A7C84F /* rooftop-food-live.mp4 in Resources */,
+				415AF98FFF5FD2A49CD37246 /* skyline-evening.jpg in Resources */,
+				CA97C66DA965300E7F2B7F3E /* soft-morning-portrait.jpg in Resources */,
+				AA5C84220C95EB229EE3C75D /* startup-orbit-pulse.png in Resources */,
+				E305B6B1BF8CB10E3694A6F8 /* street-camera-reflection.jpg in Resources */,
+				1AC1CE7F32F828619414687E /* street-style-live.mp4 in Resources */,
+				73C3C6FE2A0728FD6B736FCA /* studio-headphone.jpg in Resources */,
+				94EED2EE047FF23F0EA60756 /* sunhat-blue-sky.jpg in Resources */,
+				A3003E598905F8461ED3DFC0 /* sunhat-lakeside.jpg in Resources */,
+				CB5505CBD6093B13E7CBB9C5 /* sunlit-sidewalk.mp4 in Resources */,
+				9C3B240BD69A6821A3261E61 /* terrace-sunglasses.jpg in Resources */,
+				1FF7B468A3725DE0F09C7D36 /* trail-conversation.mp4 in Resources */,
+				9AF6CB3EBD49F990B02290FA /* train-window-light.jpg in Resources */,
+				B2CFC4331DE4B06AB9808DF2 /* watch-district-walk.jpg in Resources */,
+				1D0F938826B87846DA6CFEAA /* waterfront-blue-sky.jpg in Resources */,
+				0079EAB783E19BA6BA18DD95 /* yellow-cab-corner.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C32513175C52770CB86734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17DB2575B7986540E645763 /* LookMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319D87247FD66F61886AB923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699ACD2E7163EE8CDFF2994 /* LookMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7056C0D5AFD655C1D8302B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D80B1B13D2CDCDA4C177FF /* ActivityInboxViewController.swift in Sources */,
+				DB782B83BBAED396A4B3EE8B /* AppDelegate.swift in Sources */,
+				2240C39069C742DDB0A91FC7 /* AppRouter.swift in Sources */,
+				B455CBFEEF57E96CD2FF931B /* AuthenticationFlowViewControllers.swift in Sources */,
+				8F1312FFD1A8183CB455539A /* CoinPurchaseManager.swift in Sources */,
+				C33212911A047E6B7AB828E1 /* CoinVaultViewController.swift in Sources */,
+				AF67F5E2340D8AEF1FA2AFEF /* CommunityDomain.swift in Sources */,
+				3EAE455F594566AE1940961F /* CommunityProfileDetailViewController.swift in Sources */,
+				E637653563141A594206996B /* CommunitySafetyFlow.swift in Sources */,
+				5571606361249D9814E73788 /* ContentCommentsViewController.swift in Sources */,
+				946E8A632F7BCB81607D7CC3 /* EffectBoutiqueViewController.swift in Sources */,
+				4DC7F9348FB867557F6F1825 /* InterestRoomComposerViewController.swift in Sources */,
+				11536300FDB60EBE82300692 /* InterestRoomsViewController.swift in Sources */,
+				B0146BFCA13158ED835698DA /* LiveRoomViewController.swift in Sources */,
+				8B75DCA366706C272C40F190 /* LoginViewController.swift in Sources */,
+				0F8DA65843EB5A7BDBB6C24E /* LookMeContentPolicy.swift in Sources */,
+				192B1F9A5FA11DBD990FFD80 /* LookMeExperienceStore.swift in Sources */,
+				9935AAAF3B6ED3B1A44D2617 /* LookMeLanguageCenter.swift in Sources */,
+				D6F46BDEB737E9DFD34747B9 /* LookMeNavigationShell.swift in Sources */,
+				734805B10368CB77D4E75CEF /* LookMeVisualSystem.swift in Sources */,
+				4313B2C3A397B93F1FBEE4D0 /* MomentsFeedViewController.swift in Sources */,
+				6374C4E89ED044D00019E735 /* MutualConversationViewController.swift in Sources */,
+				871888C10D8085574B919B6D /* PersonalPresenceViewController.swift in Sources */,
+				90FA796C9EB19E10F5D1E613 /* PolicyAndSettingsViewControllers.swift in Sources */,
+				3FA49EFE7DD90C19B70413C2 /* PresenceDiscoveryViewController.swift in Sources */,
+				B1702A627EE3676EAE8DD36F /* ProtectedCapabilityFlow.swift in Sources */,
+				3925178A70A970BD22BE6232 /* SceneDelegate.swift in Sources */,
+				77BF37336EFB801184DAB480 /* StoryReelsViewController.swift in Sources */,
+				C7AA09C0721444D8414A2260 /* VoiceRoomViewController.swift in Sources */,
+				356DD537B375BE93420C2ADA /* WelcomeCoinViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A3615445560D4E1DF652AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C06EC6DFB537CDCF8B9384 /* LookMe */;
+			targetProxy = 4EAAC67D2E0C70A8EBBFB5F6 /* PBXContainerItemProxy */;
+		};
+		941BC53C945513FD3AB383BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C06EC6DFB537CDCF8B9384 /* LookMe */;
+			targetProxy = 7ADD78ADA2FF6FE8290C794F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F0989E2CFAC8C2CF49ADF6C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9121C344AE92B456CFC9FE9D /* de */,
+				40C1A086A781416E2A3DD0F4 /* en */,
+				395A34001A6EBAE2A6A65044 /* es */,
+				DB470113F9D7DF4F4DD8342B /* ja */,
+				E25517D7D2C120E11F822676 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20797C63784B796877F86FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.LookMeTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LookMe.app/LookMe";
+			};
+			name = Debug;
+		};
+		469F89EFC235C0D5C2539A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		48E519A1CACD384E9B3F529E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A1860A031502B02CB71E2EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.LookMeTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LookMe.app/LookMe";
+			};
+			name = Release;
+		};
+		BB0FB01D92CE0DA399E7236A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.LookMeUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LookMe;
+			};
+			name = Debug;
+		};
+		C5AD89B07732B686E3A47B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LookMe.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = JPTS6M4T5B;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.lookme;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CEB304BAC20720B635555B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.LookMeUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LookMe;
+			};
+			name = Release;
+		};
+		F552422D86B5EEEC1731710A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LookMe.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = JPTS6M4T5B;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fun.lookme;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BCD26081135CD9FF23D7148 /* Build configuration list for PBXNativeTarget "LookMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F552422D86B5EEEC1731710A /* Debug */,
+				C5AD89B07732B686E3A47B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		643F8E21E12A21162D0F3989 /* Build configuration list for PBXProject "LookMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469F89EFC235C0D5C2539A87 /* Debug */,
+				48E519A1CACD384E9B3F529E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE25509EBD6AC0B0CF3C123C /* Build configuration list for PBXNativeTarget "LookMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0FB01D92CE0DA399E7236A /* Debug */,
+				CEB304BAC20720B635555B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E54C100072575F69E2C5EE25 /* Build configuration list for PBXNativeTarget "LookMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20797C63784B796877F86FFB /* Debug */,
+				A1860A031502B02CB71E2EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2B98BA6999AD6899B48581 /* Project object */;
+}

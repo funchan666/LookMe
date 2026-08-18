@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<integer>1</integer>
+	<key>Store</key>
+	<dict>
+		<key>LookMeTests</key>
+		<dict>
+			<key>LookMeTests</key>
+			<dict>
+				<key>testEveryMemberSupportsDirectConversation</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00093805789947509766</real>
+				</dict>
+				<key>testEveryProvidedImageAndVideoIsMappedIntoTheProduct</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.034347057342529297</real>
+				</dict>
+				<key>testSeedMembersHaveUniqueIDsAndLocalImages</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00038504600524902344</real>
+				</dict>
+			</dict>
+		</dict>
+		<key>LookMeUITests</key>
+		<dict>
+			<key>LookMeUITests</key>
+			<dict>
+				<key>testAppLaunches</key>
+				<dict>
+					<key>mrnet</key>
+					<real>2.3216570615768433</real>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

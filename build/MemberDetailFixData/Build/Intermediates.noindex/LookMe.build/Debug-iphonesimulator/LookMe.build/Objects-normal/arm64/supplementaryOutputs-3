@@ -1,0 +1,23 @@
+{
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/DiscoverViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/DiscoverViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/DiscoverViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/DiscoverViewController.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/DiscoverViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/DiscoverViewController.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/InboxViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/InboxViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/InboxViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/InboxViewController.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/InboxViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/InboxViewController.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/LiveRoomViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/LiveRoomViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/LiveRoomViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/LiveRoomViewController.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/LiveRoomViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/MemberDetailFixData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/LiveRoomViewController.swiftdeps"
+  }
+}

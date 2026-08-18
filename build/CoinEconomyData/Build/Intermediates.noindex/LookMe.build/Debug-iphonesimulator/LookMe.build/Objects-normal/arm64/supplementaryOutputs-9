@@ -1,0 +1,23 @@
+{
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/StoreViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/StoreViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/StoreViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/StoreViewController.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/StoreViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/StoreViewController.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/VoiceRoomViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/VoiceRoomViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/VoiceRoomViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/VoiceRoomViewController.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/VoiceRoomViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/VoiceRoomViewController.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Shared/Theme.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/Theme.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/Theme.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/Theme.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/Theme.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/Theme.swiftdeps"
+  }
+}

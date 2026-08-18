@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>12</integer>
+	<key>logs</key>
+	<dict>
+		<key>5CB2BFE0-4423-4DF0-85E7-0F947F684FB6</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5CB2BFE0-4423-4DF0-85E7-0F947F684FB6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LookMe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LookMe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project LookMe with scheme LookMe</string>
+			<key>timeStartedRecording</key>
+			<real>808652290.30814803</real>
+			<key>timeStoppedRecording</key>
+			<real>808652292.33031797</real>
+			<key>title</key>
+			<string>Testing project LookMe with scheme LookMe</string>
+			<key>uniqueIdentifier</key>
+			<string>5CB2BFE0-4423-4DF0-85E7-0F947F684FB6</string>
+		</dict>
+		<key>65BB4653-5DAA-48E9-B644-FCB02C0E0D5E</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>65BB4653-5DAA-48E9-B644-FCB02C0E0D5E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LookMe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LookMe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project LookMe with scheme LookMe</string>
+			<key>timeStartedRecording</key>
+			<real>808652310.91118002</real>
+			<key>timeStoppedRecording</key>
+			<real>808652329.758762</real>
+			<key>title</key>
+			<string>Testing project LookMe with scheme LookMe</string>
+			<key>uniqueIdentifier</key>
+			<string>65BB4653-5DAA-48E9-B644-FCB02C0E0D5E</string>
+		</dict>
+		<key>85DDE964-9A0E-415C-B431-07758CF7C430</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>85DDE964-9A0E-415C-B431-07758CF7C430.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LookMe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LookMe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project LookMe with scheme LookMe</string>
+			<key>timeStartedRecording</key>
+			<real>808652401.99291396</real>
+			<key>timeStoppedRecording</key>
+			<real>808652406.58674598</real>
+			<key>title</key>
+			<string>Testing project LookMe with scheme LookMe</string>
+			<key>uniqueIdentifier</key>
+			<string>85DDE964-9A0E-415C-B431-07758CF7C430</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

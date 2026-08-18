@@ -1,0 +1,23 @@
+{
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/App/SceneDelegate.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/SceneDelegate.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/SceneDelegate.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/ReelsViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ReelsViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ReelsViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ReelsViewController.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ReelsViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ReelsViewController.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Shared/SafetyUI.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/SafetyUI.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/SafetyUI.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/SafetyUI.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/SafetyUI.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/CoinEconomyData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/SafetyUI.swiftdeps"
+  }
+}

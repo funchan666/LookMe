@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests-primary.dia",
+    "emit-module-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests-primary-emit-module.dia",
+    "pch" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests-primary.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/LookMeUITests/LookMeUITests.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/FinalDerivedData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMeUITests.build/Objects-normal/arm64/LookMeUITests~partial.swiftmodule"
+  }
+}

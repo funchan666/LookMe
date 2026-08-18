@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<integer>1</integer>
+	<key>Store</key>
+	<dict>
+		<key>LookMeTests</key>
+		<dict>
+			<key>LookMeTests</key>
+			<dict>
+				<key>testEveryMemberSupportsDirectConversation</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0012580156326293945</real>
+				</dict>
+				<key>testEveryProvidedImageAndVideoIsMappedIntoTheProduct</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.066900014877319336</real>
+				</dict>
+				<key>testLegalPagesUseTheConfiguredHTTPSAddresses</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00050199031829833984</real>
+				</dict>
+				<key>testLoginAcceptsFormattedEmailAndSixCharacterPassword</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0044249296188354492</real>
+				</dict>
+				<key>testSeedMembersHaveUniqueIDsAndLocalImages</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00030994415283203125</real>
+				</dict>
+			</dict>
+		</dict>
+		<key>LookMeUITests</key>
+		<dict>
+			<key>LookMeUITests</key>
+			<dict>
+				<key>testAppLaunches</key>
+				<dict>
+					<key>mrnet</key>
+					<real>2.3748710155487061</real>
+				</dict>
+				<key>testLoginCannotContinueWithoutBothAgreements</key>
+				<dict>
+					<key>mrnet</key>
+					<real>5.9807471036911011</real>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

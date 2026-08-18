@@ -1,0 +1,23 @@
+{
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/ChatViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ChatViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ChatViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ChatViewController.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ChatViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ChatViewController.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/ContentCommentsViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ContentCommentsViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ContentCommentsViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ContentCommentsViewController.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ContentCommentsViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ContentCommentsViewController.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Shared/ContentModeration.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ContentModeration.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ContentModeration.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ContentModeration.dia",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ContentModeration.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/ExpandedMediaData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/arm64/ContentModeration.swiftdeps"
+  }
+}

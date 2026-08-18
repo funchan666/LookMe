@@ -1,0 +1,269 @@
+{
+  "" : {
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LookMe-primary.dia",
+    "emit-module-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LookMe-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LookMe-primary-emit-module.dia",
+    "pch" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LookMe-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LookMe-primary.swiftdeps"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/App/AppDelegate.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppDelegate.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppDelegate.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppDelegate.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/App/AppRouter.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppRouter.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppRouter.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppRouter.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppRouter.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppRouter.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppRouter.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppRouter.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppRouter~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/App/SceneDelegate.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SceneDelegate.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SceneDelegate.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SceneDelegate.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SceneDelegate.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/AuthenticationFlowViewControllers.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AuthenticationFlowViewControllers.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AuthenticationFlowViewControllers.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AuthenticationFlowViewControllers.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AuthenticationFlowViewControllers.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AuthenticationFlowViewControllers.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AuthenticationFlowViewControllers.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AuthenticationFlowViewControllers.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AuthenticationFlowViewControllers~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/ChatViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ChatViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ChatViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ChatViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ChatViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ChatViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ChatViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ChatViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ChatViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/ContentCommentsViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentCommentsViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentCommentsViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentCommentsViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentCommentsViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentCommentsViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentCommentsViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentCommentsViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentCommentsViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/DiscoverViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/DiscoverViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/DiscoverViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/DiscoverViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/DiscoverViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/DiscoverViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/DiscoverViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/DiscoverViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/DiscoverViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/InboxViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/InboxViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/InboxViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/InboxViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/InboxViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/InboxViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/InboxViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/InboxViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/InboxViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/LiveRoomViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LiveRoomViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LiveRoomViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LiveRoomViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LiveRoomViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LiveRoomViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LiveRoomViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LiveRoomViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LiveRoomViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/LoginViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LoginViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LoginViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LoginViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LoginViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LoginViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LoginViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LoginViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/LoginViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/MainTabBarController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MainTabBarController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MainTabBarController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MainTabBarController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MainTabBarController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MainTabBarController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MainTabBarController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MainTabBarController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MainTabBarController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/MemberDetailViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MemberDetailViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MemberDetailViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MemberDetailViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MemberDetailViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MemberDetailViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MemberDetailViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MemberDetailViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MemberDetailViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/MomentsFeedViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsFeedViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsFeedViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsFeedViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsFeedViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsFeedViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsFeedViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsFeedViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsFeedViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/MomentsViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/MomentsViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/PolicyAndSettingsViewControllers.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PolicyAndSettingsViewControllers.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PolicyAndSettingsViewControllers.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PolicyAndSettingsViewControllers.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PolicyAndSettingsViewControllers.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PolicyAndSettingsViewControllers.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PolicyAndSettingsViewControllers.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PolicyAndSettingsViewControllers.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PolicyAndSettingsViewControllers~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/ProfileViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ProfileViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ProfileViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ProfileViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ProfileViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ProfileViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ProfileViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ProfileViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ProfileViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/ReelsViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ReelsViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ReelsViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ReelsViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ReelsViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ReelsViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ReelsViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ReelsViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ReelsViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/StoreViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/StoreViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/StoreViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/StoreViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/StoreViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/StoreViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/StoreViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/StoreViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/StoreViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Features/VoiceRoomViewController.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/VoiceRoomViewController.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/VoiceRoomViewController.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/VoiceRoomViewController.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/VoiceRoomViewController.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/VoiceRoomViewController.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/VoiceRoomViewController.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/VoiceRoomViewController.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/VoiceRoomViewController~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Shared/AppStore.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppStore.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppStore.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppStore.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppStore.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppStore.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppStore.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppStore.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/AppStore~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Shared/ContentModeration.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentModeration.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentModeration.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentModeration.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentModeration.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentModeration.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentModeration.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentModeration.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/ContentModeration~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Shared/Models.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Models.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Models.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Models.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Models.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Models.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Models.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Models.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Models~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Shared/PermissionManagers.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PermissionManagers.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PermissionManagers.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PermissionManagers.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PermissionManagers.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PermissionManagers.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PermissionManagers.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PermissionManagers.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/PermissionManagers~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Shared/SafetyUI.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SafetyUI.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SafetyUI.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SafetyUI.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SafetyUI.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SafetyUI.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SafetyUI.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SafetyUI.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/SafetyUI~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/Sources/Shared/Theme.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Theme.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Theme.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Theme.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Theme.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Theme.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Theme.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Theme.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/Theme~partial.swiftmodule"
+  },
+  "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/chengdupengyuyan/Fun/LookMe/build/AuthFlowData/Build/Intermediates.noindex/LookMe.build/Debug-iphonesimulator/LookMe.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

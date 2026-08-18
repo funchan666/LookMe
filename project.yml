@@ -1,0 +1,49 @@
+name: LookMe
+options:
+  bundleIdPrefix: com.fun
+  deploymentTarget:
+    iOS: "15.0"
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    MARKETING_VERSION: 1.0
+    CURRENT_PROJECT_VERSION: 1
+targets:
+  LookMe:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+        excludes:
+          - Resources/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.fun.lookme
+        INFOPLIST_FILE: Sources/Resources/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_ENTITLEMENTS: LookMe.entitlements
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTS_MACCATALYST: NO
+    scheme:
+      testTargets:
+        - LookMeTests
+        - LookMeUITests
+  LookMeTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [LookMeTests]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: LookMe
+  LookMeUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [LookMeUITests]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: LookMe
