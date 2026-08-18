@@ -8,6 +8,11 @@ settings:
     SWIFT_VERSION: 5.0
     MARKETING_VERSION: 1.0
     CURRENT_PROJECT_VERSION: 1
+  configs:
+    Release:
+      COPY_PHASE_STRIP: YES
+      DEPLOYMENT_POSTPROCESSING: YES
+      SWIFT_SERIALIZE_DEBUGGING_OPTIONS: NO
 targets:
   LookMe:
     type: application
