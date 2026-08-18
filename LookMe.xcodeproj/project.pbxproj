@@ -88,7 +88,6 @@
 		A6702938A938FD69C36B09F3 /* harbor-rail-pose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1A87B9AA7EFE69409E77085 /* harbor-rail-pose.jpg */; };
 		A6B8B9BF434A7D7A08994922 /* garden-day-live.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B08579D23E077335776EA6FF /* garden-day-live.mp4 */; };
 		A7EEFDDD0CA164C264A77D66 /* mirror-daylight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AED0A1753EE827EE1654621 /* mirror-daylight.jpg */; };
-		AA5C84220C95EB229EE3C75D /* startup-orbit-pulse.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F13C81C93EF368EC1BDDB61 /* startup-orbit-pulse.png */; };
 		AF67F5E2340D8AEF1FA2AFEF /* CommunityDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A9550CAC8FDD1E6326E706 /* CommunityDomain.swift */; };
 		B0146BFCA13158ED835698DA /* LiveRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348BBAD125D8A78B1341DAE /* LiveRoomViewController.swift */; };
 		B1702A627EE3676EAE8DD36F /* ProtectedCapabilityFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B58ECB6378AADA5E28EC0 /* ProtectedCapabilityFlow.swift */; };
@@ -169,7 +168,6 @@
 		3B2CA00AA49F5E57C5FDD160 /* LookMeLanguageCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeLanguageCenter.swift; sourceTree = "<group>"; };
 		3CC24CEA5E392E3610C81F14 /* LookMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2AEB26EF5CB9EDC2972D5D /* mountain-lake-stop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mountain-lake-stop.jpg"; sourceTree = "<group>"; };
-		3F13C81C93EF368EC1BDDB61 /* startup-orbit-pulse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startup-orbit-pulse.png"; sourceTree = "<group>"; };
 		3F199ECBC55E394FFE288439 /* evening-red-dress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "evening-red-dress.jpg"; sourceTree = "<group>"; };
 		409CBA6BE5E60637EAFD12B2 /* modern-city-square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "modern-city-square.jpg"; sourceTree = "<group>"; };
 		40C1A086A781416E2A3DD0F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -471,7 +469,6 @@
 				797137EDB0E37F26FDBDB9ED /* lookme-presence-mark.png */,
 				57C57EC1F1F01225D161C45D /* presence-constellation-field.png */,
 				E6A3A239BF13C2A360B16C4D /* profile-orbit-halo.png */,
-				3F13C81C93EF368EC1BDDB61 /* startup-orbit-pulse.png */,
 			);
 			path = SignalCanvas;
 			sourceTree = "<group>";
@@ -669,7 +666,6 @@
 				4209516335A72985D0A7C84F /* rooftop-food-live.mp4 in Resources */,
 				415AF98FFF5FD2A49CD37246 /* skyline-evening.jpg in Resources */,
 				CA97C66DA965300E7F2B7F3E /* soft-morning-portrait.jpg in Resources */,
-				AA5C84220C95EB229EE3C75D /* startup-orbit-pulse.png in Resources */,
 				E305B6B1BF8CB10E3694A6F8 /* street-camera-reflection.jpg in Resources */,
 				1AC1CE7F32F828619414687E /* street-style-live.mp4 in Resources */,
 				73C3C6FE2A0728FD6B736FCA /* studio-headphone.jpg in Resources */,
