@@ -2,7 +2,9 @@ import UIKit
 
 final class CommunityProfileDetailViewController: LMViewController {
     private let member: CommunityProfile; private let follow = UIButton(type: .system)
-    private let heroShade = LMGradientView(colors: [.clear, UIColor.black.withAlphaComponent(0.92)], horizontal: false)
+    // Keep the portrait and scenery true to the source image; the fade only
+    // begins near the identity copy at the bottom of the hero.
+    private let heroShade = LMGradientView(colors: [.clear, .clear, UIColor.black.withAlphaComponent(0.70)], horizontal: false)
     init(member: CommunityProfile) { self.member = member; super.init(nibName: nil, bundle: nil) }
     required init?(coder: NSCoder) { fatalError() }
     override func viewDidLoad() {
