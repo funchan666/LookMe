@@ -120,13 +120,15 @@ final class LookMeTests: XCTestCase {
 
     func testRequiredCoinProductsKeepTheirExactPriceAndIdentifiers() {
         let required = [
-            "aemioopkpetwajkp": "99.99",
-            "hdgghmshovasdyjy": "49.99",
-            "lhwydfhkwbcanrsw": "19.99",
-            "ftqahcqxbcapujwi": "9.99",
-            "wwojlhycqqcivsqb": "4.99",
-            "bcuqiavbgevogdun": "1.99",
-            "kjzszhqzldpbqguc": "0.99"
+            "yusumvtayfbcjlzr": "149.99",
+            "uvhfntfqftmppfby": "99.99",
+            "uboaynpdevvevaif": "49.99",
+            "bfydbuxftbusaqiq": "19.99",
+            "ffthvfpycfqnceox": "9.99",
+            "mazqovirzlcftvhi": "4.99",
+            "yigmnvtxnjnmqlzd": "2.99",
+            "iphmxaehlokhqbct": "1.99",
+            "pnbbupnbuvktgbuz": "0.99"
         ]
         XCTAssertEqual(CoinPackage.all.count, 9)
         for (identifier, price) in required {

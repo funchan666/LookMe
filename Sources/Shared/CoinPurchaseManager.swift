@@ -10,15 +10,15 @@ struct CoinPackage: Equatable {
     var displayPrice: String { "$\(price)" }
 
     static let all: [CoinPackage] = [
-        .init(productID: "kjzszhqzldpbqguc", price: "0.99", coins: 500, badge: nil),
-        .init(productID: "bcuqiavbgevogdun", price: "1.99", coins: 1_050, badge: nil),
-        .init(productID: "nqtrvmxkplzhecwa", price: "2.99", coins: 1_650, badge: "NEW"),
-        .init(productID: "wwojlhycqqcivsqb", price: "4.99", coins: 2_900, badge: nil),
-        .init(productID: "ftqahcqxbcapujwi", price: "9.99", coins: 6_000, badge: "POPULAR"),
-        .init(productID: "lhwydfhkwbcanrsw", price: "19.99", coins: 12_500, badge: nil),
-        .init(productID: "hdgghmshovasdyjy", price: "49.99", coins: 33_000, badge: "PLUS 10%"),
-        .init(productID: "aemioopkpetwajkp", price: "99.99", coins: 72_000, badge: "PLUS 20%"),
-        .init(productID: "zrxuqnlvapjemhct", price: "149.99", coins: 115_000, badge: "MAX"),
+        .init(productID: "pnbbupnbuvktgbuz", price: "0.99", coins: 500, badge: nil),
+        .init(productID: "iphmxaehlokhqbct", price: "1.99", coins: 1_050, badge: nil),
+        .init(productID: "yigmnvtxnjnmqlzd", price: "2.99", coins: 1_650, badge: "NEW"),
+        .init(productID: "mazqovirzlcftvhi", price: "4.99", coins: 2_900, badge: nil),
+        .init(productID: "ffthvfpycfqnceox", price: "9.99", coins: 6_000, badge: "POPULAR"),
+        .init(productID: "bfydbuxftbusaqiq", price: "19.99", coins: 12_500, badge: nil),
+        .init(productID: "uboaynpdevvevaif", price: "49.99", coins: 33_000, badge: "PLUS 10%"),
+        .init(productID: "uvhfntfqftmppfby", price: "99.99", coins: 72_000, badge: "PLUS 20%"),
+        .init(productID: "yusumvtayfbcjlzr", price: "149.99", coins: 115_000, badge: "MAX"),
     ]
 
     static func package(for productID: String) -> CoinPackage? {
