@@ -17,7 +17,7 @@ enum LookMeProtectedCapability {
 
     var explanation: String {
         switch self {
-        case .microphone: return "This action needs microphone access. You can continue using the rest of LookMe without it."
+        case .microphone: return "This action needs microphone access. You can continue using the rest of NightHub without it."
         case .camera: return "This action needs camera access. You can continue by choosing media from the picker instead."
         case .location: return "Current-region discovery needs location access. Manual region browsing remains available."
         }

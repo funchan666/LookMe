@@ -12,6 +12,8 @@ settings:
     Release:
       COPY_PHASE_STRIP: YES
       DEPLOYMENT_POSTPROCESSING: YES
+      OTHER_CFLAGS: "$(inherited) -fdebug-prefix-map=$(SRCROOT)=/LookMeSource"
+      OTHER_SWIFT_FLAGS: "$(inherited) -debug-prefix-map $(SRCROOT)=/LookMeSource"
       SWIFT_SERIALIZE_DEBUGGING_OPTIONS: NO
 targets:
   LookMe:

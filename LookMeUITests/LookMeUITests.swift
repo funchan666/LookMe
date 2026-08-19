@@ -39,7 +39,7 @@ final class LookMeUITests: XCTestCase {
         app.staticTexts["login.title"].tap()
         app.buttons["login.agreement"].tap()
         app.buttons["login.continue"].tap()
-        XCTAssertTrue(app.staticTexts["Your LookMe signal is live"].waitForExistence(timeout: 8))
+        XCTAssertTrue(app.staticTexts["Your NightHub signal is live"].waitForExistence(timeout: 8))
         XCTAssertTrue(app.staticTexts["888"].waitForExistence(timeout: 3))
         let welcomeShot = XCTAttachment(screenshot: app.screenshot())
         welcomeShot.name = "WelcomeCoinDrop"

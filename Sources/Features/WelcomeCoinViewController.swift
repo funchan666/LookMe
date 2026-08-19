@@ -23,7 +23,7 @@ final class WelcomeCoinViewController: UIViewController {
         let accent = UIView(); accent.backgroundColor = LMTheme.pink; accent.round(2)
         let eyebrow = UILabel.lm("WELCOME GIFT", size: 10, weight: .heavy, color: LMTheme.pinkSoft); eyebrow.letterSpacing(1.8); eyebrow.textAlignment = .center
         token.contentMode = .scaleAspectFit; token.layer.shadowColor = LMTheme.pink.cgColor; token.layer.shadowOpacity = 0.28; token.layer.shadowRadius = 18; token.layer.shadowOffset = .zero
-        let title = UILabel.lm("Your LookMe signal is live", size: 22, weight: .bold); title.textAlignment = .center; title.numberOfLines = 0
+        let title = UILabel.lm("Your NightHub signal is live", size: 22, weight: .bold); title.textAlignment = .center; title.numberOfLines = 0
         let rewardPanel = UIView(); rewardPanel.backgroundColor = UIColor.white.withAlphaComponent(0.055); rewardPanel.round(19); rewardPanel.layer.borderWidth = 1; rewardPanel.layer.borderColor = UIColor.white.withAlphaComponent(0.08).cgColor
         let unit = UILabel.lm("WELCOME COINS", size: 10, weight: .heavy, color: LMTheme.pinkSoft); unit.letterSpacing(1.15)
         let deposited = UILabel.lm("ADDED TO YOUR VAULT", size: 9, weight: .bold, color: UIColor.white.withAlphaComponent(0.44)); deposited.letterSpacing(0.65)
@@ -31,7 +31,7 @@ final class WelcomeCoinViewController: UIViewController {
         let freeIcon = UIImageView(image: UIImage(systemName: "checkmark.circle.fill", withConfiguration: UIImage.SymbolConfiguration(pointSize: 14, weight: .semibold))); freeIcon.tintColor = LMTheme.pinkSoft
         let free = UILabel.lm("Messages, calls, comments and follows stay free.", size: 10.5, weight: .semibold, color: UIColor.white.withAlphaComponent(0.56)); free.numberOfLines = 1; free.adjustsFontSizeToFitWidth = true; free.minimumScaleFactor = 0.86
         let freeRow = UIStackView(arrangedSubviews: [freeIcon, free]); freeRow.axis = .horizontal; freeRow.alignment = .center; freeRow.spacing = 6
-        let enter = UIButton.lm("Enter LookMe", symbol: "arrow.right"); enter.backgroundColor = LMTheme.pink; enter.round(24); enter.addTarget(self, action: #selector(close), for: .touchUpInside)
+        let enter = UIButton.lm("Enter NightHub", symbol: "arrow.right"); enter.backgroundColor = LMTheme.pink; enter.round(24); enter.addTarget(self, action: #selector(close), for: .touchUpInside)
         [accent, eyebrow, token, title, rewardPanel, body, freeRow, enter].forEach { $0.translatesAutoresizingMaskIntoConstraints = false; card.addSubview($0) }
         [amountLabel, unit, deposited].forEach { $0.translatesAutoresizingMaskIntoConstraints = false; rewardPanel.addSubview($0) }
 

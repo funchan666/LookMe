@@ -84,7 +84,7 @@ final class ReportReasonViewController: UIViewController {
     }
     @objc private func reasonTap(_ sender: UIButton) { selected = reasons[sender.tag]; refreshReasons() }
     private func refreshReasons() { for (index, view) in stack.arrangedSubviews.enumerated() { guard let b = view as? UIButton else { continue }; let on = reasons[index] == selected; b.backgroundColor = on ? LMTheme.violet.withAlphaComponent(0.72) : UIColor.white.withAlphaComponent(0.05); b.setImage(UIImage(systemName: on ? "checkmark.circle.fill" : "circle"), for: .normal); b.tintColor = on ? LMTheme.pinkSoft : LMTheme.muted } }
-    @objc private func submit() { let host = presentingViewController; LookMeExperienceStore.shared.report(targetID: target.id, type: target.type, userID: target.userID, reason: selected); dismiss(animated: true) { host?.present(LMNoticeViewController(style: .success, title: "Report received", message: "Thank you for helping keep LookMe respectful. The content has been hidden."), animated: true) } }
+    @objc private func submit() { let host = presentingViewController; LookMeExperienceStore.shared.report(targetID: target.id, type: target.type, userID: target.userID, reason: selected); dismiss(animated: true) { host?.present(LMNoticeViewController(style: .success, title: "Report received", message: "Thank you for helping keep NightHub respectful. The content has been hidden."), animated: true) } }
     @objc private func close() { dismiss(animated: true) }
 }
 

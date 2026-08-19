@@ -38,7 +38,7 @@ final class InterestRoomComposerViewController: LMViewController, UITextViewDele
         let introduction = UILabel.lm("Give people a clear reason to gather", size: 22, weight: .bold)
         introduction.font = LMTheme.displayFont(size: 22, weight: .bold)
         canvas.addArrangedSubview(introduction)
-        let guidance = UILabel.lm("Choose a focused topic and a short room note. Room titles and messages follow the same community safety rules as the rest of LookMe.", size: 12, weight: .medium, color: LMTheme.muted)
+        let guidance = UILabel.lm("Choose a focused topic and a short room note. Room titles and messages follow the same community safety rules as the rest of NightHub.", size: 12, weight: .medium, color: LMTheme.muted)
         guidance.numberOfLines = 0
         canvas.addArrangedSubview(guidance)
 

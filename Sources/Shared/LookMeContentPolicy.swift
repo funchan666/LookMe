@@ -13,7 +13,7 @@ enum LookMeContentPolicy {
             switch self {
             case .emptyOrOversized: return "Keep this message concise and add some meaningful text."
             case .sexualSolicitation: return "Please remove sexual requests or exploitative language."
-            case .threatOrSelfHarm: return "Threats and encouragement of harm aren't allowed on LookMe."
+            case .threatOrSelfHarm: return "Threats and encouragement of harm aren't allowed on NightHub."
             case .targetedAbuse: return "Please rewrite this without hateful, degrading or targeted abuse."
             case .scamOrContactSpam: return "Please remove suspicious links, payment requests or repeated contact details."
             case .repeatedNoise: return "Please replace repeated characters with a clear message."

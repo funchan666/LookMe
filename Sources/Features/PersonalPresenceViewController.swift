@@ -243,7 +243,7 @@ final class SettingsViewController: LMViewController {
         content.setCustomSpacing(20, after: languagePanel)
         content.addArrangedSubview(sectionHeading("ACCOUNT & PRIVACY"))
         let accountPanel = UIStackView(); accountPanel.axis = .vertical; accountPanel.spacing = 0; accountPanel.backgroundColor = LMTheme.panel; accountPanel.round(14)
-        [("Privacy Policy", "hand.raised.fill", 0), ("Terms of Service", "doc.text.fill", 1), ("Community Guidelines", "person.3.fill", 2), ("Blocked accounts", "person.crop.circle.badge.xmark", 3), ("About LookMe", "sparkles", 4)].enumerated().forEach { index, data in
+        [("Privacy Policy", "hand.raised.fill", 0), ("Terms of Service", "doc.text.fill", 1), ("Community Guidelines", "person.3.fill", 2), ("Blocked accounts", "person.crop.circle.badge.xmark", 3), ("About NightHub", "sparkles", 4)].enumerated().forEach { index, data in
             let row = settingsRow(data.0, symbol: data.1, tag: data.2); row.addTarget(self, action: #selector(rowTap(_:)), for: .touchUpInside); accountPanel.addArrangedSubview(row)
             if index < 4 { accountPanel.addArrangedSubview(separator()) }
         }
@@ -301,7 +301,7 @@ final class LanguageSelectionViewController: UIViewController {
         super.viewDidLoad(); view.backgroundColor = UIColor.black.withAlphaComponent(0.76)
         let card = UIView(); card.backgroundColor = LMTheme.panel; card.round(28); card.layer.borderWidth = 1; card.layer.borderColor = LMTheme.violet.withAlphaComponent(0.62).cgColor
         let handle = UIView(); handle.backgroundColor = UIColor.white.withAlphaComponent(0.16); handle.round(2)
-        let eyebrow = UILabel.lm("LOOKME AROUND THE WORLD", size: 9, weight: .heavy, color: LMTheme.pinkSoft); eyebrow.textAlignment = .center
+        let eyebrow = UILabel.lm("NIGHTHUB AROUND THE WORLD", size: 9, weight: .heavy, color: LMTheme.pinkSoft); eyebrow.textAlignment = .center
         let title = UILabel.lm("Choose your language", size: 23, weight: .bold); title.font = LMTheme.displayFont(size: 23, weight: .bold); title.textAlignment = .center
         let note = UILabel.lm("The interface updates now and remembers your choice.", size: 11, weight: .medium, color: LMTheme.muted); note.textAlignment = .center; note.numberOfLines = 0
         let stack = UIStackView(); stack.axis = .vertical; stack.spacing = 7

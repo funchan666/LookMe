@@ -53,7 +53,7 @@ final class LoginViewController: UIViewController, ASAuthorizationControllerDele
         mark.translatesAutoresizingMaskIntoConstraints = false
         let markHolder = UIView()
         markHolder.addSubview(mark)
-        let title = UILabel.lm("LookMe", size: 31, weight: .bold)
+        let title = UILabel.lm("NightHub", size: 31, weight: .bold)
         title.accessibilityIdentifier = "login.title"
         let subtitle = UILabel.lm("Real people. Real conversations.", size: 14, weight: .medium, color: UIColor.white.withAlphaComponent(0.78))
 
@@ -223,7 +223,7 @@ final class LoginViewController: UIViewController, ASAuthorizationControllerDele
         guard requireAgreement() else { return }
         guard let credentials = validatedCredentials() else { return }
         storeEmailIdentity(email: credentials.email)
-        showAuthProgress(title: "Signing you in", detail: "Opening your LookMe world…")
+        showAuthProgress(title: "Signing you in", detail: "Opening your NightHub world…")
     }
 
     @objc private func register() {
@@ -306,7 +306,7 @@ final class LoginViewController: UIViewController, ASAuthorizationControllerDele
         } else if let savedName = defaults.string(forKey: "appleDisplayName"), !savedName.isEmpty {
             LookMeExperienceStore.shared.nickname = savedName
         }
-        showAuthProgress(title: "Welcome to LookMe", detail: "Apple verified your identity. Syncing your profile…")
+        showAuthProgress(title: "Welcome to NightHub", detail: "Apple verified your identity. Syncing your profile…")
     }
 
     func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
