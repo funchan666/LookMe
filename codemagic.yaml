@@ -1,0 +1,76 @@
+workflows:
+  nighthub-ios-app-store:
+    name: NightHub iOS App Store
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+
+    integrations:
+      app_store_connect: NightHub
+
+    environment:
+      xcode: latest
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.nighthub.momentspace
+      vars:
+        BUNDLE_ID: "com.nighthub.momentspace"
+        XCODE_PROJECT: "LookMe.xcodeproj"
+        XCODE_SCHEME: "LookMe"
+        # Replace this with the numeric Apple ID shown in App Store Connect.
+        APP_STORE_APPLE_ID: "REPLACE_WITH_APP_STORE_APPLE_ID"
+
+    scripts:
+      - name: Verify NightHub project settings
+        script: |
+          cd "$CM_BUILD_DIR"
+          test -f "$XCODE_PROJECT/project.pbxproj"
+          test -f "$XCODE_PROJECT/xcshareddata/xcschemes/$XCODE_SCHEME.xcscheme"
+          grep -q "PRODUCT_BUNDLE_IDENTIFIER = $BUNDLE_ID;" "$XCODE_PROJECT/project.pbxproj"
+          echo "Project: $XCODE_PROJECT"
+          echo "Scheme: $XCODE_SCHEME"
+          echo "Bundle ID: $BUNDLE_ID"
+
+      - name: Set up App Store signing
+        script: |
+          cd "$CM_BUILD_DIR"
+          xcode-project use-profiles
+
+      - name: Set build number
+        script: |
+          cd "$CM_BUILD_DIR"
+          PBXPROJ_PATH="$CM_BUILD_DIR/$XCODE_PROJECT/project.pbxproj"
+          BUILD_NUMBER="${CM_BUILD_NUMBER:-1}"
+
+          if [[ "$APP_STORE_APPLE_ID" =~ ^[0-9]+$ ]]; then
+            LATEST_BUILD_NUMBER="$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID" 2>/dev/null || true)"
+            if [[ "$LATEST_BUILD_NUMBER" =~ ^[0-9]+$ ]]; then
+              BUILD_NUMBER=$((LATEST_BUILD_NUMBER + 1))
+            fi
+          fi
+
+          /usr/bin/sed -i '' "s/CURRENT_PROJECT_VERSION = [^;]*;/CURRENT_PROJECT_VERSION = $BUILD_NUMBER;/g" "$PBXPROJ_PATH"
+          echo "Using build number: $BUILD_NUMBER"
+
+      - name: Build signed IPA
+        script: |
+          cd "$CM_BUILD_DIR"
+          xcode-project build-ipa \
+            --project "$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME"
+
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+
+    publishing:
+      email:
+        recipients:
+          - funchan@126.com
+        notify:
+          success: true
+          failure: true
+
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: false
+        submit_to_app_store: false
