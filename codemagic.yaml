@@ -17,7 +17,7 @@ workflows:
         XCODE_PROJECT: "LookMe.xcodeproj"
         XCODE_SCHEME: "LookMe"
         # Replace this with the numeric Apple ID shown in App Store Connect.
-        APP_STORE_APPLE_ID: ""
+        APP_STORE_APPLE_ID: "6802985363"
 
     scripts:
       - name: Verify NightHub project settings
