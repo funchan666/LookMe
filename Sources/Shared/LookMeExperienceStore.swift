@@ -333,7 +333,7 @@ final class LookMeExperienceStore {
     }
 
     func deleteAccountData() {
-        let domain = Bundle.main.bundleIdentifier ?? "com.fun.lookme"
+        let domain = Bundle.main.bundleIdentifier ?? "com.nighthub.momentspace"
         defaults.removePersistentDomain(forName: domain)
         defaults.synchronize()
         coins = 0; following.removeAll(); incomingFollowers.removeAll(); blockedUsers.removeAll(); messages.removeAll(); voiceRoomMessages.removeAll(); pendingMoments.removeAll(); comments.removeAll(); reports.removeAll(); systemNotices.removeAll(); backpack.removeAll(); createdInterestRooms.removeAll(); scheduledInboundFollowers.removeAll(); installReelConversationsIfNeeded()
