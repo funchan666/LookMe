@@ -376,13 +376,13 @@ final class NightHubRemoteExperienceViewController: UIViewController, WKNavigati
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         guard let operation = NightHubBridgeContract.operation(forExternalHandler: message.name) else { return }
         switch operation {
-        case .rechargePay: rechargePay(message.body)
-        case .logout: logout(message.body)
-        case .openBrowser: openBrowser(message.body)
+        case .rechargePay: handleRecharge(message.body)
+        case .logout: handleLogout(message.body)
+        case .openBrowser: handleBrowser(message.body)
         }
     }
 
-    private func rechargePay(_ body: Any) {
+    private func handleRecharge(_ body: Any) {
         guard let values = NightHubBridgeContract.stringArray(from: body, count: 2), !values[0].isEmpty, !values[1].isEmpty else {
             let order = (NightHubBridgeContract.stringArray(from: body, count: 2)?[1]) ?? ""
             dispatch(event: NightHubBridgeContract.rechargeStateEvent, detail: ["failed", order, "Invalid purchase request."])
@@ -391,12 +391,12 @@ final class NightHubRemoteExperienceViewController: UIViewController, WKNavigati
         CoinPurchaseManager.shared.beginRemotePurchase(productIdentifier: values[0], orderIdentifier: values[1])
     }
 
-    private func logout(_ body: Any) {
+    private func handleLogout(_ body: Any) {
         guard let values = NightHubBridgeContract.stringArray(from: body, count: 1), !values[0].isEmpty else { return }
         logoutHandler?(values[0])
     }
 
-    private func openBrowser(_ body: Any) {
+    private func handleBrowser(_ body: Any) {
         guard let values = NightHubBridgeContract.stringArray(from: body, count: 2),
               let url = NightHubBridgeContract.validatedSystemURL(from: values) else {
             let attempted = (NightHubBridgeContract.stringArray(from: body, count: 2)?[1]) ?? ""
