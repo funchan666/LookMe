@@ -9,9 +9,16 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = window
         AppRouter.shared.window = window
         CoinPurchaseManager.shared.startObserving()
-        window.rootViewController = StartupLoadingViewController {
-            AppRouter.shared.showInitial()
-        }
+        window.rootViewController = NightHubRouteResolvingViewController()
         window.makeKeyAndVisible()
+        NightHubExperienceCoordinator.shared.start(in: window)
+    }
+
+    func sceneWillResignActive(_ scene: UIScene) {
+        NightHubPrivacyCoordinator.shared.sceneWillResignActive()
+    }
+
+    func sceneDidBecomeActive(_ scene: UIScene) {
+        NightHubPrivacyCoordinator.shared.sceneDidBecomeActive()
     }
 }

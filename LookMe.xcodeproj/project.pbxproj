@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -34,6 +34,7 @@
 		2240C39069C742DDB0A91FC7 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949689C2D8B466AAE2944A2 /* AppRouter.swift */; };
 		2699ACD2E7163EE8CDFF2994 /* LookMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B57E4108E4B099510131C7 /* LookMeUITests.swift */; };
 		2883337BF8A73EB04F1B01E9 /* old-town-dress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E19A51806F41C3FEF7181EE6 /* old-town-dress.jpg */; };
+		2C2B35991E9CBBE930937D19 /* NightHubRemoteViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786DE22673BFC4BB48E0AC19 /* NightHubRemoteViewControllers.swift */; };
 		2D671D1D4D96538080E8E71D /* metro-bandana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12E9DE56827807CBE08EDC11 /* metro-bandana.jpg */; };
 		337E7F918A346B3DF00C9935 /* riverside-black-dress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1DDC81C8866B0FF0FEEBFE5 /* riverside-black-dress.jpg */; };
 		33E532DC98484E58C042E1C2 /* evening-driving-range.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF4BA2861DDFA6EA45BBCFD6 /* evening-driving-range.mp4 */; };
@@ -47,6 +48,7 @@
 		41FD12FDC7181F54D9EF5C39 /* discovery-aurora-field.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DD261318A28F73BFEE6A469 /* discovery-aurora-field.png */; };
 		4209516335A72985D0A7C84F /* rooftop-food-live.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CA1B790AC66697A0EE1685E4 /* rooftop-food-live.mp4 */; };
 		4313B2C3A397B93F1FBEE4D0 /* MomentsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F2C8D538954CB5132DC007 /* MomentsFeedViewController.swift */; };
+		489DA4EA6FFB0A438777AC53 /* NightHubRouteProtection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD72C000CC37DBC1432FD61C /* NightHubRouteProtection.swift */; };
 		48AD345723E888061AC10EDF /* lookme-presence-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 797137EDB0E37F26FDBDB9ED /* lookme-presence-mark.png */; };
 		4BE3E85F99E7A0AABE4CFD73 /* headphone-mirror.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E4EFA39FB73F4D5817F7B67 /* headphone-mirror.jpg */; };
 		4DC7F9348FB867557F6F1825 /* InterestRoomComposerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D2BFB1EE291A2FF617DB66 /* InterestRoomComposerViewController.swift */; };
@@ -58,6 +60,7 @@
 		6106ABB3C96DEB5A3ECB60B7 /* above-clouds-broadcast.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 861FF4CC5AA4135FE45FE757 /* above-clouds-broadcast.mp4 */; };
 		6374C4E89ED044D00019E735 /* MutualConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D234448388BEDE73E92F9F /* MutualConversationViewController.swift */; };
 		6AAB54388D39E6375D68894A /* old-town-gelato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BF74929A21FB7CEAACE8DCD /* old-town-gelato.jpg */; };
+		7023A3C6D917ED35D1EC7F18 /* NightHubCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A493BF8D244793FFE0B353F3 /* NightHubCipher.swift */; };
 		713F1FCC5B5F6526A1F11DBB /* coastal-friends.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D2CAFEF4FC62873BF92AE08 /* coastal-friends.jpg */; };
 		734805B10368CB77D4E75CEF /* LookMeVisualSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F1A5F1C0FEE70100DD168B /* LookMeVisualSystem.swift */; };
 		73C3C6FE2A0728FD6B736FCA /* studio-headphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DDFF6121C4AE1246D921BD6 /* studio-headphone.jpg */; };
@@ -66,6 +69,7 @@
 		7B9FB05A61AC10102ACD7BDB /* SpaceGrotesk-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AB31735A7BB2DFF073CD7DB /* SpaceGrotesk-Variable.ttf */; };
 		8129576874EBE97C1411F224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3453FFAF276EB96A5406E502 /* LaunchScreen.storyboard */; };
 		8314F4B3DDF53140E36BBB73 /* effect-boutique-aurora.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF59B931B6BBABC7245C3EC /* effect-boutique-aurora.png */; };
+		86DD0E634652442074C83DA6 /* NightHubExperienceCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE56B8D02637866462CA28B4 /* NightHubExperienceCoordinator.swift */; };
 		871888C10D8085574B919B6D /* PersonalPresenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FFF5EDB8AD81B9549B4DAB /* PersonalPresenceViewController.swift */; };
 		8B75DCA366706C272C40F190 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1792C6D7F5B79B117A454D4E /* LoginViewController.swift */; };
 		8E765689E55DC3D4209CA8E2 /* account-entry-scene.png in Resources */ = {isa = PBXBuildFile; fileRef = 998404A27B3FE2061BA68DA0 /* account-entry-scene.png */; };
@@ -85,9 +89,11 @@
 		A1E441CA58271D15B53B6CEE /* gallery-eye-portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB01F11F525A6756D15C3048 /* gallery-eye-portrait.jpg */; };
 		A20CB45B1C61C96D10DE94CB /* crosswalk-daylight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 694BE0480174C6975D343206 /* crosswalk-daylight.jpg */; };
 		A3003E598905F8461ED3DFC0 /* sunhat-lakeside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85CD78035AA81D3D5440A8F3 /* sunhat-lakeside.jpg */; };
+		A3476814995E195B45328020 /* NightHubSessionLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A3673CF5A0330F261E6E63 /* NightHubSessionLedger.swift */; };
 		A6702938A938FD69C36B09F3 /* harbor-rail-pose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1A87B9AA7EFE69409E77085 /* harbor-rail-pose.jpg */; };
 		A6B8B9BF434A7D7A08994922 /* garden-day-live.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B08579D23E077335776EA6FF /* garden-day-live.mp4 */; };
 		A7EEFDDD0CA164C264A77D66 /* mirror-daylight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AED0A1753EE827EE1654621 /* mirror-daylight.jpg */; };
+		A9AC219CB21EC6B06D6CA7DA /* NightHubSignalTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A5E43C99E4BAD29415D79 /* NightHubSignalTransport.swift */; };
 		AF67F5E2340D8AEF1FA2AFEF /* CommunityDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A9550CAC8FDD1E6326E706 /* CommunityDomain.swift */; };
 		B0146BFCA13158ED835698DA /* LiveRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4348BBAD125D8A78B1341DAE /* LiveRoomViewController.swift */; };
 		B1702A627EE3676EAE8DD36F /* ProtectedCapabilityFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B58ECB6378AADA5E28EC0 /* ProtectedCapabilityFlow.swift */; };
@@ -120,6 +126,8 @@
 		E64BBD4131F531422E9E2FA4 /* car-window-portrait.webp in Resources */ = {isa = PBXBuildFile; fileRef = C31DF50BBD9BAE2D24030BB7 /* car-window-portrait.webp */; };
 		EFAFF9684C2F867F1B99110D /* friends-city-walk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 17C20772120FC6FAB13699FC /* friends-city-walk.mp4 */; };
 		F56978031C44073E07AEF027 /* launch-signal-pulse.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2348204F860680365A982B /* launch-signal-pulse.png */; };
+		F72EFE37833E901A9747D301 /* NightHubRemoteContractTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1840C1E8C073F826BCCD0 /* NightHubRemoteContractTests.swift */; };
+		FB350336CA088B61A320FC58 /* NightHubRemoteEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263799071B40020DEDC34F00 /* NightHubRemoteEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,7 +148,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		065230A248FE083464718BD2 /* street-style-live.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "street-style-live.mp4"; sourceTree = "<group>"; };
+		065230A248FE083464718BD2 /* street-style-live.mp4 */ = {isa = PBXFileReference; path = "street-style-live.mp4"; sourceTree = "<group>"; };
 		07B57E4108E4B099510131C7 /* LookMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeUITests.swift; sourceTree = "<group>"; };
 		09A5F796A8597777924A45DD /* Quicksand-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Variable.ttf"; sourceTree = "<group>"; };
 		0BF74929A21FB7CEAACE8DCD /* old-town-gelato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "old-town-gelato.jpg"; sourceTree = "<group>"; };
@@ -148,12 +156,13 @@
 		12E9DE56827807CBE08EDC11 /* metro-bandana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "metro-bandana.jpg"; sourceTree = "<group>"; };
 		168A6E77B2C4CAF9F96FF4D2 /* LookMeExperienceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeExperienceStore.swift; sourceTree = "<group>"; };
 		1792C6D7F5B79B117A454D4E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		17C20772120FC6FAB13699FC /* friends-city-walk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "friends-city-walk.mp4"; sourceTree = "<group>"; };
+		17C20772120FC6FAB13699FC /* friends-city-walk.mp4 */ = {isa = PBXFileReference; path = "friends-city-walk.mp4"; sourceTree = "<group>"; };
 		1BE739FA28C7160523168930 /* canyon-hike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "canyon-hike.jpg"; sourceTree = "<group>"; };
 		1C9ADD425DBC944DAA80BDCE /* ActivityInboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityInboxViewController.swift; sourceTree = "<group>"; };
 		1CF59B931B6BBABC7245C3EC /* effect-boutique-aurora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "effect-boutique-aurora.png"; sourceTree = "<group>"; };
+		263799071B40020DEDC34F00 /* NightHubRemoteEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightHubRemoteEnvironment.swift; sourceTree = "<group>"; };
 		26F9BAFD9682DC050948B590 /* garden-balcony.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "garden-balcony.jpg"; sourceTree = "<group>"; };
-		29329D9F6CA13B8D3783E539 /* city-dance-corner.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "city-dance-corner.mp4"; sourceTree = "<group>"; };
+		29329D9F6CA13B8D3783E539 /* city-dance-corner.mp4 */ = {isa = PBXFileReference; path = "city-dance-corner.mp4"; sourceTree = "<group>"; };
 		2A3478ECAF282B599FE76F61 /* LookMeNavigationShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeNavigationShell.swift; sourceTree = "<group>"; };
 		2D2CAFEF4FC62873BF92AE08 /* coastal-friends.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coastal-friends.jpg"; sourceTree = "<group>"; };
 		331E7540A494B41D3F62A1CF /* StoryReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryReelsViewController.swift; sourceTree = "<group>"; };
@@ -164,9 +173,10 @@
 		37691F7717E85BC170E4FBE4 /* SpaceGrotesk-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SpaceGrotesk-OFL.txt"; sourceTree = "<group>"; };
 		38A4DC7F925BE7043F82F21E /* city-icecream-walk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "city-icecream-walk.jpg"; sourceTree = "<group>"; };
 		395A34001A6EBAE2A6A65044 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3A3A5E43C99E4BAD29415D79 /* NightHubSignalTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightHubSignalTransport.swift; sourceTree = "<group>"; };
 		3B05A840D8BA3C86721A210F /* terrace-sunglasses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "terrace-sunglasses.jpg"; sourceTree = "<group>"; };
 		3B2CA00AA49F5E57C5FDD160 /* LookMeLanguageCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeLanguageCenter.swift; sourceTree = "<group>"; };
-		3CC24CEA5E392E3610C81F14 /* LookMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC24CEA5E392E3610C81F14 /* LookMeTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LookMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2AEB26EF5CB9EDC2972D5D /* mountain-lake-stop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mountain-lake-stop.jpg"; sourceTree = "<group>"; };
 		3F199ECBC55E394FFE288439 /* evening-red-dress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "evening-red-dress.jpg"; sourceTree = "<group>"; };
 		409CBA6BE5E60637EAFD12B2 /* modern-city-square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "modern-city-square.jpg"; sourceTree = "<group>"; };
@@ -180,31 +190,33 @@
 		49DCCAD3FF1032FF3C0A2F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AED0A1753EE827EE1654621 /* mirror-daylight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mirror-daylight.jpg"; sourceTree = "<group>"; };
 		4C1DA7074243D602A1E965ED /* WelcomeCoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCoinViewController.swift; sourceTree = "<group>"; };
-		4E399E2F18B5B1A5F6B2F3EB /* trail-conversation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "trail-conversation.mp4"; sourceTree = "<group>"; };
+		4E399E2F18B5B1A5F6B2F3EB /* trail-conversation.mp4 */ = {isa = PBXFileReference; path = "trail-conversation.mp4"; sourceTree = "<group>"; };
 		4E4EFA39FB73F4D5817F7B67 /* headphone-mirror.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "headphone-mirror.jpg"; sourceTree = "<group>"; };
 		50AC30201F94F06F0E52A9DF /* EffectBoutiqueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectBoutiqueViewController.swift; sourceTree = "<group>"; };
 		5387AB4C5A8E308C9ACEF16B /* train-window-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "train-window-light.jpg"; sourceTree = "<group>"; };
 		57C57EC1F1F01225D161C45D /* presence-constellation-field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "presence-constellation-field.png"; sourceTree = "<group>"; };
-		59EE8D795C085AB0B80E2092 /* railway-greenway.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "railway-greenway.mp4"; sourceTree = "<group>"; };
-		65B15094C2896A3EF5170226 /* LookMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EE8D795C085AB0B80E2092 /* railway-greenway.mp4 */ = {isa = PBXFileReference; path = "railway-greenway.mp4"; sourceTree = "<group>"; };
+		5BB1840C1E8C073F826BCCD0 /* NightHubRemoteContractTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightHubRemoteContractTests.swift; sourceTree = "<group>"; };
+		65B15094C2896A3EF5170226 /* LookMeUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LookMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A9550CAC8FDD1E6326E706 /* CommunityDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDomain.swift; sourceTree = "<group>"; };
 		694BE0480174C6975D343206 /* crosswalk-daylight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crosswalk-daylight.jpg"; sourceTree = "<group>"; };
 		69A1E577EF809B86FE6D489C /* PresenceDiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenceDiscoveryViewController.swift; sourceTree = "<group>"; };
 		6AB31735A7BB2DFF073CD7DB /* SpaceGrotesk-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Variable.ttf"; sourceTree = "<group>"; };
 		6C9AFE830296B7E2FB2375E5 /* watch-district-walk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "watch-district-walk.jpg"; sourceTree = "<group>"; };
 		7030526298E4E29D4280FECA /* great-wall-rest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "great-wall-rest.jpg"; sourceTree = "<group>"; };
-		7253EE905E4682FDE9AACF78 /* canal-city-walk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "canal-city-walk.mp4"; sourceTree = "<group>"; };
+		7253EE905E4682FDE9AACF78 /* canal-city-walk.mp4 */ = {isa = PBXFileReference; path = "canal-city-walk.mp4"; sourceTree = "<group>"; };
 		7672306DC5205DFCC9CB9DE3 /* LookMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookMeTests.swift; sourceTree = "<group>"; };
+		786DE22673BFC4BB48E0AC19 /* NightHubRemoteViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightHubRemoteViewControllers.swift; sourceTree = "<group>"; };
 		797137EDB0E37F26FDBDB9ED /* lookme-presence-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lookme-presence-mark.png"; sourceTree = "<group>"; };
 		7CF4B68423970F2C96169270 /* green-cap-profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "green-cap-profile.jpg"; sourceTree = "<group>"; };
-		7DF942237E74B1321B619C88 /* cliffside-dive.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cliffside-dive.mp4"; sourceTree = "<group>"; };
+		7DF942237E74B1321B619C88 /* cliffside-dive.mp4 */ = {isa = PBXFileReference; path = "cliffside-dive.mp4"; sourceTree = "<group>"; };
 		82CCA4ABF77F8B45B0CCDC2E /* highland-summit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "highland-summit.jpg"; sourceTree = "<group>"; };
 		839C6003D51591A6D86AD24B /* lakefront-breeze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lakefront-breeze.jpg"; sourceTree = "<group>"; };
 		83B1C1131408DF28AAF1D044 /* riverside-wheel-view.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "riverside-wheel-view.jpg"; sourceTree = "<group>"; };
 		8444E3F0C903FDEE81D0BB6A /* ContentCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCommentsViewController.swift; sourceTree = "<group>"; };
-		8461DF7C3414C6AA40041E3A /* LookMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LookMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8461DF7C3414C6AA40041E3A /* LookMe.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LookMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CD78035AA81D3D5440A8F3 /* sunhat-lakeside.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunhat-lakeside.jpg"; sourceTree = "<group>"; };
-		861FF4CC5AA4135FE45FE757 /* above-clouds-broadcast.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "above-clouds-broadcast.mp4"; sourceTree = "<group>"; };
+		861FF4CC5AA4135FE45FE757 /* above-clouds-broadcast.mp4 */ = {isa = PBXFileReference; path = "above-clouds-broadcast.mp4"; sourceTree = "<group>"; };
 		8D2348204F860680365A982B /* launch-signal-pulse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-signal-pulse.png"; sourceTree = "<group>"; };
 		8DDFF6121C4AE1246D921BD6 /* studio-headphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "studio-headphone.jpg"; sourceTree = "<group>"; };
 		9121C344AE92B456CFC9FE9D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -213,12 +225,13 @@
 		9C9579203562A2E127A90AE0 /* canal-afternoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "canal-afternoon.jpg"; sourceTree = "<group>"; };
 		9CC0F7AF6DE9B82422C2FB09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9DD261318A28F73BFEE6A469 /* discovery-aurora-field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discovery-aurora-field.png"; sourceTree = "<group>"; };
-		A1CD7857484C288C3D58A275 /* closeup-story-live.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "closeup-story-live.mp4"; sourceTree = "<group>"; };
+		A1CD7857484C288C3D58A275 /* closeup-story-live.mp4 */ = {isa = PBXFileReference; path = "closeup-story-live.mp4"; sourceTree = "<group>"; };
 		A1D2BFB1EE291A2FF617DB66 /* InterestRoomComposerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestRoomComposerViewController.swift; sourceTree = "<group>"; };
+		A493BF8D244793FFE0B353F3 /* NightHubCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightHubCipher.swift; sourceTree = "<group>"; };
 		A5DFC4723A41900D1D952A44 /* meadow-dog-picnic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "meadow-dog-picnic.jpg"; sourceTree = "<group>"; };
 		A5F85BBC4DBF87DA825A9EAC /* boulevard-snack-stop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "boulevard-snack-stop.jpg"; sourceTree = "<group>"; };
 		AB01F11F525A6756D15C3048 /* gallery-eye-portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gallery-eye-portrait.jpg"; sourceTree = "<group>"; };
-		B08579D23E077335776EA6FF /* garden-day-live.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "garden-day-live.mp4"; sourceTree = "<group>"; };
+		B08579D23E077335776EA6FF /* garden-day-live.mp4 */ = {isa = PBXFileReference; path = "garden-day-live.mp4"; sourceTree = "<group>"; };
 		B2DEFB6D8D81182CF08764C2 /* AuthenticationFlowViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFlowViewControllers.swift; sourceTree = "<group>"; };
 		B4941037D9D611EEF3A50C5F /* harbor-cap-look.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "harbor-cap-look.jpg"; sourceTree = "<group>"; };
 		B63A62BFA70975800889E3D2 /* rocky-trail-smile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rocky-trail-smile.jpg"; sourceTree = "<group>"; };
@@ -226,18 +239,19 @@
 		B83B58ECB6378AADA5E28EC0 /* ProtectedCapabilityFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectedCapabilityFlow.swift; sourceTree = "<group>"; };
 		B9FCA4388012AC115F0057ED /* yellow-cab-corner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "yellow-cab-corner.jpg"; sourceTree = "<group>"; };
 		BD9CDC2CD8C77B1EF0537005 /* PolicyAndSettingsViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyAndSettingsViewControllers.swift; sourceTree = "<group>"; };
-		BF4BA2861DDFA6EA45BBCFD6 /* evening-driving-range.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "evening-driving-range.mp4"; sourceTree = "<group>"; };
-		C2DE02FA2FF98123EEA5A91D /* night-skyline-chat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "night-skyline-chat.mp4"; sourceTree = "<group>"; };
-		C31DF50BBD9BAE2D24030BB7 /* car-window-portrait.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "car-window-portrait.webp"; sourceTree = "<group>"; };
+		BF4BA2861DDFA6EA45BBCFD6 /* evening-driving-range.mp4 */ = {isa = PBXFileReference; path = "evening-driving-range.mp4"; sourceTree = "<group>"; };
+		C2DE02FA2FF98123EEA5A91D /* night-skyline-chat.mp4 */ = {isa = PBXFileReference; path = "night-skyline-chat.mp4"; sourceTree = "<group>"; };
+		C31DF50BBD9BAE2D24030BB7 /* car-window-portrait.webp */ = {isa = PBXFileReference; path = "car-window-portrait.webp"; sourceTree = "<group>"; };
 		C40AE4FE73947349B63F377C /* CommunitySafetyFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitySafetyFlow.swift; sourceTree = "<group>"; };
-		C56C410F56A020F8BFAF70CB /* courtyard-dance-live.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "courtyard-dance-live.mp4"; sourceTree = "<group>"; };
+		C56C410F56A020F8BFAF70CB /* courtyard-dance-live.mp4 */ = {isa = PBXFileReference; path = "courtyard-dance-live.mp4"; sourceTree = "<group>"; };
 		C579BA6651AC4B45E179B29B /* park-picnic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "park-picnic.jpg"; sourceTree = "<group>"; };
 		C9522B718B2B1F39DFEAC8A3 /* city-pop-evening.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "city-pop-evening.jpg"; sourceTree = "<group>"; };
 		C98663F5D79D6A47BC41F7DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA1B790AC66697A0EE1685E4 /* rooftop-food-live.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rooftop-food-live.mp4"; sourceTree = "<group>"; };
+		CA1B790AC66697A0EE1685E4 /* rooftop-food-live.mp4 */ = {isa = PBXFileReference; path = "rooftop-food-live.mp4"; sourceTree = "<group>"; };
 		CBBF330ABE830C43DE9088B7 /* cafe-step-portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cafe-step-portrait.jpg"; sourceTree = "<group>"; };
+		CD72C000CC37DBC1432FD61C /* NightHubRouteProtection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightHubRouteProtection.swift; sourceTree = "<group>"; };
 		D1DDC81C8866B0FF0FEEBFE5 /* riverside-black-dress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "riverside-black-dress.jpg"; sourceTree = "<group>"; };
-		D24596E0C04B76C8A8AB0244 /* sunlit-sidewalk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sunlit-sidewalk.mp4"; sourceTree = "<group>"; };
+		D24596E0C04B76C8A8AB0244 /* sunlit-sidewalk.mp4 */ = {isa = PBXFileReference; path = "sunlit-sidewalk.mp4"; sourceTree = "<group>"; };
 		D4C224A2182C3CDAB897E87E /* evening-cat-cafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "evening-cat-cafe.jpg"; sourceTree = "<group>"; };
 		D8D234448388BEDE73E92F9F /* MutualConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualConversationViewController.swift; sourceTree = "<group>"; };
 		DB470113F9D7DF4F4DD8342B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -251,13 +265,15 @@
 		E75153D0CD9BEBC90E924D8E /* sunhat-blue-sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunhat-blue-sky.jpg"; sourceTree = "<group>"; };
 		ED51248269DD1BB7807734A6 /* launch-midnight-field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-midnight-field.png"; sourceTree = "<group>"; };
 		F04E779157D6C98E61C8B9B6 /* daydream-closeup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "daydream-closeup.jpg"; sourceTree = "<group>"; };
+		F2A3673CF5A0330F261E6E63 /* NightHubSessionLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightHubSessionLedger.swift; sourceTree = "<group>"; };
 		F2FFF5EDB8AD81B9549B4DAB /* PersonalPresenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPresenceViewController.swift; sourceTree = "<group>"; };
 		F495B4EC8E673AFB42A99CDF /* alpine-ridge-lookout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alpine-ridge-lookout.jpg"; sourceTree = "<group>"; };
-		F5121683EA16DF60BAAF3AC3 /* brownstone-style.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "brownstone-style.mp4"; sourceTree = "<group>"; };
+		F5121683EA16DF60BAAF3AC3 /* brownstone-style.mp4 */ = {isa = PBXFileReference; path = "brownstone-style.mp4"; sourceTree = "<group>"; };
 		F720DC4A55D971B96AB53700 /* VoiceRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRoomViewController.swift; sourceTree = "<group>"; };
-		F93E6E4E9536B3B6C7602E55 /* boulevard-selfie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "boulevard-selfie.mp4"; sourceTree = "<group>"; };
+		F93E6E4E9536B3B6C7602E55 /* boulevard-selfie.mp4 */ = {isa = PBXFileReference; path = "boulevard-selfie.mp4"; sourceTree = "<group>"; };
 		FD37D14B86CB29C3AF15606D /* cliffside-sunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cliffside-sunset.jpg"; sourceTree = "<group>"; };
 		FD90E2BBA74072BD6D5ED5B2 /* CommunityProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityProfileDetailViewController.swift; sourceTree = "<group>"; };
+		FE56B8D02637866462CA28B4 /* NightHubExperienceCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightHubExperienceCoordinator.swift; sourceTree = "<group>"; };
 		FEE1A06C722279215CAB3B17 /* skyline-evening.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "skyline-evening.jpg"; sourceTree = "<group>"; };
 		FFB6D02FC74478DF40CF47A3 /* london-street.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "london-street.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -299,11 +315,26 @@
 			path = SignalTypography;
 			sourceTree = "<group>";
 		};
+		6CC13E9365857DE96226F987 /* RemoteExperience */ = {
+			isa = PBXGroup;
+			children = (
+				A493BF8D244793FFE0B353F3 /* NightHubCipher.swift */,
+				FE56B8D02637866462CA28B4 /* NightHubExperienceCoordinator.swift */,
+				263799071B40020DEDC34F00 /* NightHubRemoteEnvironment.swift */,
+				786DE22673BFC4BB48E0AC19 /* NightHubRemoteViewControllers.swift */,
+				CD72C000CC37DBC1432FD61C /* NightHubRouteProtection.swift */,
+				F2A3673CF5A0330F261E6E63 /* NightHubSessionLedger.swift */,
+				3A3A5E43C99E4BAD29415D79 /* NightHubSignalTransport.swift */,
+			);
+			path = RemoteExperience;
+			sourceTree = "<group>";
+		};
 		9A05643941FC5BFF757678F8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				BCFBE59A4957A2C7E54C8B4B /* App */,
 				A482893479F521887478D39E /* Features */,
+				6CC13E9365857DE96226F987 /* RemoteExperience */,
 				C6BE206846BB32CAD178FD9D /* Resources */,
 				04485BBB8BBDA9D07C91F1C1 /* Shared */,
 			);
@@ -453,6 +484,7 @@
 			isa = PBXGroup;
 			children = (
 				7672306DC5205DFCC9CB9DE3 /* LookMeTests.swift */,
+				5BB1840C1E8C073F826BCCD0 /* NightHubRemoteContractTests.swift */,
 			);
 			path = LookMeTests;
 			sourceTree = "<group>";
@@ -561,7 +593,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 2660;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					D1E75D6AEC0EAFAA070DD1C6 = {
 						TestTargetID = 53C06EC6DFB537CDCF8B9384;
@@ -582,6 +614,7 @@
 			);
 			mainGroup = 9F731FBC4DF4903661E92CC9;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -689,6 +722,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17DB2575B7986540E645763 /* LookMeTests.swift in Sources */,
+				F72EFE37833E901A9747D301 /* NightHubRemoteContractTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,6 +760,13 @@
 				734805B10368CB77D4E75CEF /* LookMeVisualSystem.swift in Sources */,
 				4313B2C3A397B93F1FBEE4D0 /* MomentsFeedViewController.swift in Sources */,
 				6374C4E89ED044D00019E735 /* MutualConversationViewController.swift in Sources */,
+				7023A3C6D917ED35D1EC7F18 /* NightHubCipher.swift in Sources */,
+				86DD0E634652442074C83DA6 /* NightHubExperienceCoordinator.swift in Sources */,
+				FB350336CA088B61A320FC58 /* NightHubRemoteEnvironment.swift in Sources */,
+				2C2B35991E9CBBE930937D19 /* NightHubRemoteViewControllers.swift in Sources */,
+				489DA4EA6FFB0A438777AC53 /* NightHubRouteProtection.swift in Sources */,
+				A3476814995E195B45328020 /* NightHubSessionLedger.swift in Sources */,
+				A9AC219CB21EC6B06D6CA7DA /* NightHubSignalTransport.swift in Sources */,
 				871888C10D8085574B919B6D /* PersonalPresenceViewController.swift in Sources */,
 				90FA796C9EB19E10F5D1E613 /* PolicyAndSettingsViewControllers.swift in Sources */,
 				3FA49EFE7DD90C19B70413C2 /* PresenceDiscoveryViewController.swift in Sources */,
@@ -789,7 +830,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -824,7 +864,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -846,7 +885,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -857,7 +895,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -893,7 +930,6 @@
 				DEPLOYMENT_POSTPROCESSING = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -906,14 +942,10 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fdebug-prefix-map=$(SRCROOT)=/LookMeSource",
-				);
+				OTHER_CFLAGS = "$(inherited) -fdebug-prefix-map=$(SRCROOT)=/LookMeSource";
 				OTHER_SWIFT_FLAGS = "$(inherited) -debug-prefix-map $(SRCROOT)=/LookMeSource";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO;
@@ -961,23 +993,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LookMe.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Sources/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nighthub.afterdark;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -1005,23 +1029,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LookMe.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Sources/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nighthub.afterdark;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;

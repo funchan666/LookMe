@@ -16,6 +16,10 @@
   <key>LSRequiresIPhoneOS</key><true/>
   <key>NSCameraUsageDescription</key><string>NightHub uses the camera when you choose to take a photo, record a video, or start a video call.</string>
   <key>NSMicrophoneUsageDescription</key><string>NightHub uses the microphone when you choose to speak in a room, record video sound, or start a call.</string>
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoadsInWebContent</key><true/>
+  </dict>
   <key>NSLocationWhenInUseUsageDescription</key><string>NightHub uses your approximate location when you choose to tune discovery to your current region.</string>
   <key>UIAppFonts</key>
   <array>
