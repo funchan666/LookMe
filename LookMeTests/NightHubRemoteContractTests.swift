@@ -20,6 +20,19 @@ final class NightHubRemoteContractTests: XCTestCase {
         XCTAssertNil(NightHubBridgeContract.stringArray(from: "{\"url\":\"https://example.com\"}", count: 2))
     }
 
+    func testExternalHandlersResolveThroughOneSemanticAdapter() {
+        XCTAssertEqual(NightHubBridgeContract.registeredHandlerNames, ["NightHubCoinVault", "NightHubFarewell", "NightHubWayfinder"])
+        XCTAssertEqual(NightHubBridgeContract.operation(forExternalHandler: "NightHubCoinVault"), .rechargePay)
+        XCTAssertEqual(NightHubBridgeContract.operation(forExternalHandler: "NightHubFarewell"), .logout)
+        XCTAssertEqual(NightHubBridgeContract.operation(forExternalHandler: "NightHubWayfinder"), .openBrowser)
+        XCTAssertNil(NightHubBridgeContract.operation(forExternalHandler: "CoinVaultRecharge"))
+        XCTAssertNil(NightHubBridgeContract.operation(forExternalHandler: "NightSessionLogout"))
+        XCTAssertNil(NightHubBridgeContract.operation(forExternalHandler: "NightLinkOpen"))
+        XCTAssertNil(NightHubBridgeContract.operation(forExternalHandler: "rechargePay"))
+        XCTAssertNil(NightHubBridgeContract.operation(forExternalHandler: "Close"))
+        XCTAssertNil(NightHubBridgeContract.operation(forExternalHandler: "openBrowser"))
+    }
+
     func testBrowserContractAllowsOnlySystemHTTPAndHTTPS() {
         XCTAssertEqual(NightHubBridgeContract.validatedSystemURL(from: ["system", "https://example.com/path"])?.scheme, "https")
         XCTAssertEqual(NightHubBridgeContract.validatedSystemURL(from: ["system", "http://example.com"])?.scheme, "http")
