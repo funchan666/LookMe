@@ -30,13 +30,13 @@ struct NightHubRemoteEnvironment {
     let fields: FieldMap
     let serverDebugValue: Int
 
-    static let testing: NightHubRemoteEnvironment? = {
-        guard let baseURL = URL(string: "https://opi.cphub.link") else { return nil }
+    static let production: NightHubRemoteEnvironment? = {
+        guard let baseURL = URL(string: "https://opi.h9io5khi.link") else { return nil }
         return NightHubRemoteEnvironment(
             baseURL: baseURL,
-            appIdentifier: "11111111",
-            aesKey: "9986sdff5s4f1123",
-            aesIV: "9986sdff5s4y456a",
+            appIdentifier: "56238573",
+            aesKey: "9zdu316sfbdvviqp",
+            aesIV: "679tp6t0n8cwwv1q",
             endpoints: EndpointMap(
                 opening: "/opi/v1/night/thresholdo",
                 authentication: "/opi/v1/afterglow/entryl",
@@ -56,7 +56,7 @@ struct NightHubRemoteEnvironment {
                 purchaseContext: "ordertrailc",
                 firstFrameMilliseconds: "frameelapsedo"
             ),
-            serverDebugValue: 1
+            serverDebugValue: 0
         )
     }()
 }

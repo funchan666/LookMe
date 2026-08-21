@@ -76,14 +76,20 @@ final class CoinPurchaseManager: NSObject, SKProductsRequestDelegate, SKRequestD
     private var isObserving = false
     private var remoteVerifier: RemoteVerifier?
     private var verificationTasks: [String: AnyCancellable] = [:]
-    private let draftKey = "com.nighthub.afterdark.coinvault.remoteDraft"
-    private let recordKey = "com.nighthub.afterdark.coinvault.remoteRecords"
-    private let completedKey = "com.nighthub.afterdark.coinvault.completedRemoteTransactions"
+    private let draftKey = "com.nighthub.afterdark.coinvault.production.remoteDraft"
+    private let recordKey = "com.nighthub.afterdark.coinvault.production.remoteRecords"
+    private let completedKey = "com.nighthub.afterdark.coinvault.production.completedRemoteTransactions"
+    private let retiredTestRemoteKeys = [
+        "com.nighthub.afterdark.coinvault.remoteDraft",
+        "com.nighthub.afterdark.coinvault.remoteRecords",
+        "com.nighthub.afterdark.coinvault.completedRemoteTransactions"
+    ]
 
     private override init() { super.init() }
 
     func startObserving() {
         guard !isObserving else { return }
+        retiredTestRemoteKeys.forEach(defaults.removeObject(forKey:))
         isObserving = true
         SKPaymentQueue.default().add(self)
     }

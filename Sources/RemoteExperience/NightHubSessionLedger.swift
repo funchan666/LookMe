@@ -5,13 +5,22 @@ import UIKit
 final class NightHubSessionLedger {
     static let shared = NightHubSessionLedger()
 
-    private let service = "com.nighthub.afterdark.remote.identity"
+    private let defaults = UserDefaults.standard
+    private let service = "com.nighthub.afterdark.remote.production.identity"
+    private let retiredTestService = "com.nighthub.afterdark.remote.identity"
     private let deviceAccount = "night-presence-device"
     private let passwordAccount = "night-presence-password"
-    private let tokenKey = "com.nighthub.afterdark.remote.loginToken"
-    private let continuityKey = "com.nighthub.afterdark.remote.sameInstallLogin"
-    private let pushTokenKey = "com.nighthub.afterdark.remote.pushToken"
-    private let explicitLogoutKey = "com.nighthub.afterdark.remote.explicitLogout"
+    private let tokenKey = "com.nighthub.afterdark.remote.production.loginToken"
+    private let continuityKey = "com.nighthub.afterdark.remote.production.sameInstallLogin"
+    private let pushTokenKey = "com.nighthub.afterdark.remote.production.pushToken"
+    private let explicitLogoutKey = "com.nighthub.afterdark.remote.production.explicitLogout"
+    private let cutoverCleanupKey = "com.nighthub.afterdark.remote.production.cutoverCleanup.v1"
+    private let retiredTestDefaultsKeys = [
+        "com.nighthub.afterdark.remote.loginToken",
+        "com.nighthub.afterdark.remote.sameInstallLogin",
+        "com.nighthub.afterdark.remote.pushToken",
+        "com.nighthub.afterdark.remote.explicitLogout"
+    ]
 
     private init() {}
 
@@ -28,26 +37,26 @@ final class NightHubSessionLedger {
 
     var loginToken: String? {
         get {
-            let value = UserDefaults.standard.string(forKey: tokenKey)?.trimmingCharacters(in: .whitespacesAndNewlines)
+            let value = defaults.string(forKey: tokenKey)?.trimmingCharacters(in: .whitespacesAndNewlines)
             return value?.isEmpty == false ? value : nil
         }
         set {
             if let value = newValue?.trimmingCharacters(in: .whitespacesAndNewlines), !value.isEmpty {
-                UserDefaults.standard.set(value, forKey: tokenKey)
-                UserDefaults.standard.set(true, forKey: continuityKey)
-                UserDefaults.standard.set(false, forKey: explicitLogoutKey)
+                defaults.set(value, forKey: tokenKey)
+                defaults.set(true, forKey: continuityKey)
+                defaults.set(false, forKey: explicitLogoutKey)
             } else {
-                UserDefaults.standard.removeObject(forKey: tokenKey)
+                defaults.removeObject(forKey: tokenKey)
             }
         }
     }
 
     var cachedPushToken: String {
-        UserDefaults.standard.string(forKey: pushTokenKey) ?? ""
+        defaults.string(forKey: pushTokenKey) ?? ""
     }
 
     var allowsSameInstallRecovery: Bool {
-        UserDefaults.standard.bool(forKey: continuityKey) && !UserDefaults.standard.bool(forKey: explicitLogoutKey)
+        defaults.bool(forKey: continuityKey) && !defaults.bool(forKey: explicitLogoutKey)
     }
 
     func persist(password: String?) {
@@ -56,17 +65,28 @@ final class NightHubSessionLedger {
     }
 
     func persist(pushToken: String) {
-        UserDefaults.standard.set(pushToken, forKey: pushTokenKey)
+        defaults.set(pushToken, forKey: pushTokenKey)
     }
 
     func markOrdinaryLogout() {
         loginToken = nil
-        UserDefaults.standard.set(true, forKey: explicitLogoutKey)
+        defaults.set(true, forKey: explicitLogoutKey)
     }
 
-    func prepareForBootstrap() {
+    func prepareForBootstrap() -> Bool {
         _ = stableDeviceIdentifier
         ["loginToken", "remoteLoginToken", "bLoginToken"].forEach { delete(account: $0) }
+        guard !defaults.bool(forKey: cutoverCleanupKey) else { return false }
+        retiredTestDefaultsKeys.forEach(defaults.removeObject(forKey:))
+        delete(account: deviceAccount, service: retiredTestService)
+        delete(account: passwordAccount, service: retiredTestService)
+        ["loginToken", "remoteLoginToken", "bLoginToken"].forEach { delete(account: $0, service: retiredTestService) }
+        URLCache.shared.removeAllCachedResponses()
+        return true
+    }
+
+    func markProductionCutoverCleanupComplete() {
+        defaults.set(true, forKey: cutoverCleanupKey)
     }
 
     private func read(account: String) -> String? {
@@ -95,10 +115,14 @@ final class NightHubSessionLedger {
         SecItemDelete(baseQuery(account: account) as CFDictionary)
     }
 
-    private func baseQuery(account: String) -> [String: Any] {
+    private func delete(account: String, service: String) {
+        SecItemDelete(baseQuery(account: account, service: service) as CFDictionary)
+    }
+
+    private func baseQuery(account: String, service: String? = nil) -> [String: Any] {
         [
             kSecClass as String: kSecClassGenericPassword,
-            kSecAttrService as String: service,
+            kSecAttrService as String: service ?? self.service,
             kSecAttrAccount as String: account,
             kSecAttrSynchronizable as String: kCFBooleanFalse as Any
         ]

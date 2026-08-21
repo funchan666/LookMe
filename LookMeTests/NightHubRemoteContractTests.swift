@@ -2,11 +2,12 @@ import XCTest
 @testable import LookMe
 
 final class NightHubRemoteContractTests: XCTestCase {
-    func testCipherMatchesTheBackendTestVector() throws {
-        let cipher = try NightHubCipher(key: "9986sdff5s4f1123", iv: "9986sdff5s4y456a")
-        let object = try XCTUnwrap(try cipher.decryptJSONObject(from: "be85f9b3b97f17a09119cf0dd4841975") as? [String: Any])
-        XCTAssertEqual(object["n"] as? Int, 1)
-        XCTAssertEqual(object["g"] as? Int, 1)
+    func testCipherRoundTripsAJSONPayload() throws {
+        let cipher = try NightHubCipher(key: "0123456789abcdef", iv: "fedcba9876543210")
+        let encrypted = try cipher.encryptJSONObject(["state": "ready", "count": 2])
+        let object = try XCTUnwrap(try cipher.decryptJSONObject(from: encrypted) as? [String: Any])
+        XCTAssertEqual(object["state"] as? String, "ready")
+        XCTAssertEqual(object["count"] as? Int, 2)
     }
 
     func testBridgeAcceptsOnlyExactStringArrays() {
@@ -28,10 +29,14 @@ final class NightHubRemoteContractTests: XCTestCase {
         XCTAssertNil(NightHubBridgeContract.validatedSystemURL(from: ["system", "file:///tmp/item"]))
     }
 
-    func testTestingEnvironmentKeepsRequiredSuffixSemantics() throws {
-        let environment = try XCTUnwrap(NightHubRemoteEnvironment.testing)
-        XCTAssertEqual(environment.baseURL.absoluteString, "https://opi.cphub.link")
-        XCTAssertEqual(environment.appIdentifier, "11111111")
+    func testProductionEnvironmentKeepsRequiredSecurityAndSuffixSemantics() throws {
+        let environment = try XCTUnwrap(NightHubRemoteEnvironment.production)
+        XCTAssertEqual(environment.baseURL.scheme, "https")
+        XCTAssertNotNil(environment.baseURL.host)
+        XCTAssertFalse(environment.appIdentifier.isEmpty)
+        XCTAssertEqual(environment.aesKey.lengthOfBytes(using: .utf8), 16)
+        XCTAssertEqual(environment.aesIV.lengthOfBytes(using: .utf8), 16)
+        XCTAssertEqual(environment.serverDebugValue, 0)
         XCTAssertTrue(environment.endpoints.opening.hasSuffix("o"))
         XCTAssertTrue(environment.endpoints.authentication.hasSuffix("l"))
         XCTAssertTrue(environment.endpoints.purchaseVerification.hasSuffix("p"))

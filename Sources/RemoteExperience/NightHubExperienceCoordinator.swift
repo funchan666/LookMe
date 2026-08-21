@@ -1,5 +1,6 @@
 import Combine
 import UIKit
+import WebKit
 
 final class NightHubExperienceCoordinator {
     static let shared = NightHubExperienceCoordinator()
@@ -25,9 +26,27 @@ final class NightHubExperienceCoordinator {
             self?.performOpening(attempt: 0, resolving: resolving)
         }
         if window.rootViewController !== resolving { window.rootViewController = resolving }
-        ledger.prepareForBootstrap()
-        guard let environment = NightHubRemoteEnvironment.testing,
-              let transport = try? NightHubSignalTransport(environment: environment) else {
+        let requiresWebsiteDataReset = ledger.prepareForBootstrap()
+        guard let environment = NightHubRemoteEnvironment.production else {
+            routeToNative()
+            return
+        }
+        if requiresWebsiteDataReset {
+            let dataStore = WKWebsiteDataStore.default()
+            dataStore.removeData(ofTypes: WKWebsiteDataStore.allWebsiteDataTypes(), modifiedSince: .distantPast) { [weak self, weak resolving] in
+                DispatchQueue.main.async {
+                    guard let self else { return }
+                    self.ledger.markProductionCutoverCleanupComplete()
+                    self.configure(environment: environment, resolving: resolving)
+                }
+            }
+            return
+        }
+        configure(environment: environment, resolving: resolving)
+    }
+
+    private func configure(environment: NightHubRemoteEnvironment, resolving: NightHubRouteResolvingViewController?) {
+        guard let transport = try? NightHubSignalTransport(environment: environment) else {
             routeToNative()
             return
         }
